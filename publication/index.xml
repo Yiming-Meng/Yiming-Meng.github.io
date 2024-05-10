@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Yiming Meng</title>
+    <link>http://localhost:4321/publication/</link>
+      <atom:link href="http://localhost:4321/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 21 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:4321/media/icon_hued5b44fe80b908030093a7e09ec67911_44353_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>http://localhost:4321/publication/</link>
+    </image>
+    
+    <item>
+      <title>Physics-Informed Neural Network Policy Iteration: Algorithms, Convergence, and Verification</title>
+      <link>http://localhost:4321/publication/ml-conference/icml24/</link>
+      <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/ml-conference/icml24/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compositionally Verifiable Vector Neural Lyapunov Functions for Stability Analysis of Interconnected Nonlinear Systems</title>
+      <link>http://localhost:4321/publication/conference-paper/acc24-1/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/conference-paper/acc24-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zubov-Koopman Learning of Maximal Lyapunov Functions</title>
+      <link>http://localhost:4321/publication/conference-paper/acc24-2/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/conference-paper/acc24-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LyZNet with Control: Physics-Informed Neural Network Control of Nonlinear Systems with Formal Guarantees</title>
+      <link>http://localhost:4321/publication/conference-paper/adhs24/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/conference-paper/adhs24/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LyZNet: A Lightweight Python Tool for Learning and Verifying Neural Lyapunov Functions and Regions of Attraction</title>
+      <link>http://localhost:4321/publication/conference-paper/hscc24/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/conference-paper/hscc24/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Koopman-Based Data-Driven Techniques for Adaptive Cruise Control System Identification</title>
+      <link>http://localhost:4321/publication/preprint/koopman_traffic/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/preprint/koopman_traffic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Koopman-Based Learning of Infinitesimal Generators without Operator Logarithm</title>
+      <link>http://localhost:4321/publication/preprint/koopman_id/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/preprint/koopman_id/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Physics-Informed Extreme Learning Machine Lyapunov Functions</title>
+      <link>http://localhost:4321/publication/preprint/pinn_elm/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/preprint/pinn_elm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online Learning and Control Synthesis for Reachable Paths of Unknown Nonlinear Systems</title>
+      <link>http://localhost:4321/publication/preprint/online_control/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/preprint/online_control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Physics-Informed Neural Network Lyapunov Functions: PDE Characterization, Learning, and Verification</title>
+      <link>http://localhost:4321/publication/preprint/pinn_zubov/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/preprint/pinn_zubov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stochastic Lyapunov-Barrier Functions for Robust Probabilistic Reach-Avoid-Stay Specifications</title>
+      <link>http://localhost:4321/publication/journal-article/tac23/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/journal-article/tac23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asymptotic Approximation of the Maximal Lyapunov Exponent of Moore-Greitzer PDE model with Multiplicative Noise close to Stall Bifurcation</title>
+      <link>http://localhost:4321/publication/preprint/as_stability/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/preprint/as_stability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Learning and Verifying Maximal Neural Lyapunov Functions</title>
+      <link>http://localhost:4321/publication/conference-paper/cdc23/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/conference-paper/cdc23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Regions of Attraction in Unknown Dynamical Systems via Zubov-Koopman Lifting: Regularities and Convergence</title>
+      <link>http://localhost:4321/publication/preprint/zk_learning/</link>
+      <pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/preprint/zk_learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asymptotic Approximation of the Maximal Lyapunov Exponent of Moore-Greitzer PDE model with Multiplicative Noise close to Stall Bifurcation</title>
+      <link>http://localhost:4321/publication/conference-paper/iutam23/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/conference-paper/iutam23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robustly Complete Finite-State Abstractions for Control Synthesis of Stochastic Systems</title>
+      <link>http://localhost:4321/publication/journal-article/ojcsys23/</link>
+      <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/journal-article/ojcsys23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hopf Bifurcations of Moore-Greitzer PDE Model with Additive Noise</title>
+      <link>http://localhost:4321/publication/journal-article/jnls23/</link>
+      <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/journal-article/jnls23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lyapunov-Barrier Characterization of Robust Reach-Avoid-Stay Specifications for Hybrid Systems</title>
+      <link>http://localhost:4321/publication/journal-article/nahs23/</link>
+      <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/journal-article/nahs23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data-Driven Learning of Safety-Critical Control with Stochastic Control Barrier Functions</title>
+      <link>http://localhost:4321/publication/conference-paper/cdc22/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/conference-paper/cdc22/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Equal Contribution
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bifurcation and Robust Control of Instabilities in the Presence of Uncertainties</title>
+      <link>http://localhost:4321/publication/thesis/</link>
+      <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robustly Complete Finite-State Abstractions for Verification of Stochastic Systems</title>
+      <link>http://localhost:4321/publication/conference-paper/formats22/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/conference-paper/formats22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sufficient Conditions for Robust Probabilistic Reach-Avoid-Stay Specifications using Stochastic Lyapunov-Barrier Functions</title>
+      <link>http://localhost:4321/publication/conference-paper/acc22/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/conference-paper/acc22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smooth Converse Lyapunov-Barrier Theorems for Asymptotic Stability wit Safety Constraints and Reach-Avoid-Stay Specifications</title>
+      <link>http://localhost:4321/publication/journal-article/automatica22/</link>
+      <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/journal-article/automatica22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Safety-Critical Control of Stochastic Systems using Stochastic Control Barrier Functions</title>
+      <link>http://localhost:4321/publication/conference-paper/cdc21/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/conference-paper/cdc21/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Equal Contribution
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Control of Nonlinear Systems with Reach-Avoid-Stay Specifications: A Lyapunov-Barrier Approach with an Application to the Moore-Greizer Model</title>
+      <link>http://localhost:4321/publication/conference-paper/acc21/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/conference-paper/acc21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Control Barrier Functions with High Relative Degree for Safety-Critical Control</title>
+      <link>http://localhost:4321/publication/conference-paper/ecc21/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/conference-paper/ecc21/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

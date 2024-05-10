@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nonlinear Systems | Yiming Meng</title>
+    <link>http://localhost:4321/tag/nonlinear-systems/</link>
+      <atom:link href="http://localhost:4321/tag/nonlinear-systems/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nonlinear Systems</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:4321/media/icon_hued5b44fe80b908030093a7e09ec67911_44353_512x512_fill_lanczos_center_3.png</url>
+      <title>Nonlinear Systems</title>
+      <link>http://localhost:4321/tag/nonlinear-systems/</link>
+    </image>
+    
+    <item>
+      <title>Nonlinear System Analysis</title>
+      <link>http://localhost:4321/project/example/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/project/example/</guid>
+      <description>&lt;h2 id=&#34;smooth-lyapunov-barrier-theorems-for-reach-avoid-stay-control&#34;&gt;Smooth Lyapunov-Barrier Theorems for Reach-Avoid-Stay Control&lt;/h2&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+   Stability, reachability, and safety are crucial properties of dynamical systems. While verification and control synthesis of reach–avoid–stay objectives can be effectively handled by abstraction-based formal methods, such approaches can be computationally expensive. In contrast, Lyapunov-barrier methods qualitatively characterize stability and safety properties without any state–space discretization.
+   &lt;/div&gt;
+&lt;div style=&#34;height: 10px;&#34;&gt;&lt;/div&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+However, Lyapunov and barrier function conditions are sometimes viewed as competing objectives. In this series of works, we provide a unified theoretical treatment of Lyapunov and barrier functions for finite-dimensional dynamical systems with different types of uncertainties. 
+  &lt;/div&gt;
+&lt;h2 id=&#34;dimension-reduction-and-bifurcation-analysis-of-infinite-dimensional-stochastic-dynamical-systems&#34;&gt;Dimension Reduction and Bifurcation Analysis of Infinite-Dimensional Stochastic Dynamical Systems&lt;/h2&gt;
+ &lt;div style=&#34;text-align: justify;&#34;&gt;
+ Identifying bifurcation points is crucial for safety-critical operations. In contrast to the deterministic setting, stochastic bifurcation is not well understood, particularly for infinite-dimensional systems. We focus on semilinear stochastic partial differential equations (SPDEs) and address this challenge by utilizing a multiscale approximation of the dynamics through amplitude equations. This approach is particularly effective due to the inherent spectral gap of the linear or linearized differential operator. The study of the impact of additive noise and multiplicative noise is also fundamentally different.
+  &lt;/div&gt;
+&lt;h3 id=&#34;additive-noise&#34;&gt;Additive Noise&lt;/h3&gt;
+  &lt;div style=&#34;text-align: justify;&#34;&gt;
+ The results verify that as the noise becomes smaller, a lower-dimensional Markov process characterizes the limiting behavior. The low-dimensional approximation near a deterministic Hopf bifurcation point performs well in terms of simulating the distribution, density, as well as the top Lyapunov exponent of the full system. This stochastic analysis is applied in predicting the safe operating range of jet engine compressors. The approximated Instability margins in the presence of uncertainties will eventually lead to lighter and more efficient jet engine design.
+  &lt;/div&gt;
+&lt;h3 id=&#34;multiplicative-noise&#34;&gt;Multiplicative Noise&lt;/h3&gt;
+  &lt;div style=&#34;text-align: justify;&#34;&gt;
+ We propose an approximation scheme and investigate the error. This includes the error of transient solutions up to a fixed time, as well as the distance between the invariant measures. Unlike the finite-dimensional amplitude equations in the aforementioned additive noise case, which serve as the limiting equations for the corresponding infinite-dimensional dynamics, the purpose of the approximation scheme is not to reduce the dimension via homogenization. We do not negate the coupling effects in the nonlinearities or the multiplicative noise. This approach aims to retain as much interaction information between the critical and stable modes as present in the original dynamics. Ultimately, this simplified scheme is used along with the linearized equations to analyze the structural changes in random attractors when the trivial solution loses its stability.
+  &lt;/div&gt;
+ &lt;div style=&#34;height: 10px;&#34;&gt;&lt;/div&gt;
+   &lt;div style=&#34;text-align: justify;&#34;&gt;
+Through the analysis, we have found that this coupling slightly impacts both the D-bifurcation and P-bifurcation points through second-order corrections. Unlike in the deterministic case—where deterministic parametric perturbations don&#39;t influence structural stability—even a minor intensity of stochastic perturbations from the stable modes shifts both the dynamical and phenomenological bifurcation points.
+  &lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

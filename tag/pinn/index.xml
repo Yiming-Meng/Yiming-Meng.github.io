@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pinn | Yiming Meng</title>
+    <link>http://localhost:4321/tag/pinn/</link>
+      <atom:link href="http://localhost:4321/tag/pinn/index.xml" rel="self" type="application/rss+xml" />
+    <description>Pinn</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:4321/media/icon_hued5b44fe80b908030093a7e09ec67911_44353_512x512_fill_lanczos_center_3.png</url>
+      <title>Pinn</title>
+      <link>http://localhost:4321/tag/pinn/</link>
+    </image>
+    
+    <item>
+      <title>Physics-Informed Neural Optimality</title>
+      <link>http://localhost:4321/project/pinn/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/project/pinn/</guid>
+      <description>&lt;div style=&#34;text-align: justify;&#34;&gt;
+   In continuous environments, optimality-related quantities for finite-dimensional dynamical systems usually exist in the lifted function/functional spaces, which are solutions to optimality-induced partial differential equations (PDEs). We develop analysis and computation tools in this regard.
+   &lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

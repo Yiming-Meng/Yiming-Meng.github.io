@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data_driven | Yiming Meng</title>
+    <link>http://localhost:4321/tag/data_driven/</link>
+      <atom:link href="http://localhost:4321/tag/data_driven/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data_driven</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:4321/media/icon_hued5b44fe80b908030093a7e09ec67911_44353_512x512_fill_lanczos_center_3.png</url>
+      <title>Data_driven</title>
+      <link>http://localhost:4321/tag/data_driven/</link>
+    </image>
+    
+    <item>
+      <title>Learning and Control for Dynamical Systems</title>
+      <link>http://localhost:4321/project/data_driven/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/project/data_driven/</guid>
+      <description>&lt;h2 id=&#34;data-driven-system-identification&#34;&gt;Data-Driven System Identification&lt;/h2&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+  Estimating the region of attraction (ROA) of an asymptotically stable attractor is crucial in the analysis of nonlinear systems. We propose a lifting approach to map observable data into an infinite-dimensional function space, which generates a flow governed by the proposed Koopman-based operators. This approach enables us to approximate the system transition and indirectly estimate the solution (value function) to Zubov’s Equation.  The approximator&#39;s non-trivial sub-level sets, with values ranging from (0, 1], form the exact ROA. This approximation is achieved by learning the operator over a fixed time interval. We demonstrate that a transformation of such an approximator can be readily utilized as a near-maximal Lyapunov function. We show that this approach reduces the amount of data and can yield desirable estimation results.
+   &lt;/div&gt;
+&lt;div style=&#34;height: 10px;&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;online-learning-and-control-synthesis-for-reachable-paths-of-unknown-nonlinear-systems&#34;&gt;Online Learning and Control Synthesis for Reachable Paths of Unknown Nonlinear Systems&lt;/h2&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+Systems across domains operate with limited information, such as uncertainties arising from an insufficient understanding of system transitions and external forces.  In this research, we focus on situations where the nonlinear system is partially unknown, with our knowledge limited to its local dynamics at a single point and constraints on the rate of change of these dynamics. Based on this limited information, we aim to implement the following pipeline for the system: First, we identify a set of states, known as the Guaranteed Reachable Set (GRS), that the unknown system can provably reach within a given timeframe from the point of known information, using underapproximation proxy dynamics. Then, we specify a  state on the boundary of the GRS and synthesize a controller, enabling the partially unknown  system to approach the vicinity of this state. 
+   &lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

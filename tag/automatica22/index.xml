@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automatica22 | Yiming Meng</title>
+    <link>http://localhost:4321/tag/automatica22/</link>
+      <atom:link href="http://localhost:4321/tag/automatica22/index.xml" rel="self" type="application/rss+xml" />
+    <description>Automatica22</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 28 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:4321/media/icon_hued5b44fe80b908030093a7e09ec67911_44353_512x512_fill_lanczos_center_3.png</url>
+      <title>Automatica22</title>
+      <link>http://localhost:4321/tag/automatica22/</link>
+    </image>
+    
+    <item>
+      <title>Smooth Converse Lyapunov-Barrier Theorems for Asymptotic Stability wit Safety Constraints and Reach-Avoid-Stay Specifications</title>
+      <link>http://localhost:4321/publication/journal-article/automatica22/</link>
+      <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/journal-article/automatica22/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

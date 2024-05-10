@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research | Yiming Meng</title>
+    <link>http://localhost:4321/project/</link>
+      <atom:link href="http://localhost:4321/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Research</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:4321/media/icon_hued5b44fe80b908030093a7e09ec67911_44353_512x512_fill_lanczos_center_3.png</url>
+      <title>Research</title>
+      <link>http://localhost:4321/project/</link>
+    </image>
+    
+    <item>
+      <title>Learning and Control for Dynamical Systems</title>
+      <link>http://localhost:4321/project/data_driven/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/project/data_driven/</guid>
+      <description>&lt;h2 id=&#34;data-driven-system-identification&#34;&gt;Data-Driven System Identification&lt;/h2&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+  Estimating the region of attraction (ROA) of an asymptotically stable attractor is crucial in the analysis of nonlinear systems. We propose a lifting approach to map observable data into an infinite-dimensional function space, which generates a flow governed by the proposed Koopman-based operators. This approach enables us to approximate the system transition and indirectly estimate the solution (value function) to Zubov’s Equation.  The approximator&#39;s non-trivial sub-level sets, with values ranging from (0, 1], form the exact ROA. This approximation is achieved by learning the operator over a fixed time interval. We demonstrate that a transformation of such an approximator can be readily utilized as a near-maximal Lyapunov function. We show that this approach reduces the amount of data and can yield desirable estimation results.
+   &lt;/div&gt;
+&lt;div style=&#34;height: 10px;&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;online-learning-and-control-synthesis-for-reachable-paths-of-unknown-nonlinear-systems&#34;&gt;Online Learning and Control Synthesis for Reachable Paths of Unknown Nonlinear Systems&lt;/h2&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+Systems across domains operate with limited information, such as uncertainties arising from an insufficient understanding of system transitions and external forces.  In this research, we focus on situations where the nonlinear system is partially unknown, with our knowledge limited to its local dynamics at a single point and constraints on the rate of change of these dynamics. Based on this limited information, we aim to implement the following pipeline for the system: First, we identify a set of states, known as the Guaranteed Reachable Set (GRS), that the unknown system can provably reach within a given timeframe from the point of known information, using underapproximation proxy dynamics. Then, we specify a  state on the boundary of the GRS and synthesize a controller, enabling the partially unknown  system to approach the vicinity of this state. 
+   &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Physics-Informed Neural Optimality</title>
+      <link>http://localhost:4321/project/pinn/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/project/pinn/</guid>
+      <description>&lt;div style=&#34;text-align: justify;&#34;&gt;
+   In continuous environments, optimality-related quantities for finite-dimensional dynamical systems usually exist in the lifted function/functional spaces, which are solutions to optimality-induced partial differential equations (PDEs). We develop analysis and computation tools in this regard.
+   &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Formal Methods</title>
+      <link>http://localhost:4321/project/formal_methods/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/project/formal_methods/</guid>
+      <description>&lt;h2 id=&#34;abstraction-based-formal-methods-for-stochastic-dynamical-systems&#34;&gt;Abstraction-Based Formal Methods for Stochastic Dynamical Systems&lt;/h2&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+   Abstraction-based formal synthesis relies on obtaining a finite-state abstraction (or symbolic model) of the original and possibly nonlinear systems. Computational methods, such as graph-based model checking and automaton-guided controller synthesis, are then developed based on the abstraction to verify the system or synthesize controllers with respect to a temporal logic specification. Abstractions enable autonomous decision-making of physical systems to achieve more complex tasks and have received significant success in the past decade. Regardless of heavy state-space discretization and complicated abstraction analysis, formal methods compute with guarantees a set of initial states from which a controller exists to realize the given specification. So far, abstraction-based formal verification and control synthesis for deterministic systems has gained its maturity. Sound and approximately complete finite (not just finite-state) abstractions can be achieved.
+   &lt;/div&gt;
+&lt;div style=&#34;height: 10px;&#34;&gt;&lt;/div&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+However, to determine the &#34;size&#34; of the abstractions for stochastic systems, we need to work on the weak* topology of the solution processes (here, we treat the solutions as functionals rather than absolute continuous functions). The obtained abstractions based on the state-space discretization are essentially a family of &#34;discrete-version&#34; transition kernels of the original systems. However, there are uncountably infinite of them, which is why we name it a &#34;finite-state&#34; abstraction. To prevent a sound stochastic abstraction from generating significant deviation, we perform a completeness analysis. The purpose is to investigate whether such deviations can be reflected in some continuous-state systems with arbitrarily small perturbations when compared to the original concrete systems. By conducting this type of comparison, we aim to release the abstraction from the &#34;virtual&#34; systems and establish a perception that even small deviations would not lead to substantial issues for the original system.
+  &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nonlinear System Analysis</title>
+      <link>http://localhost:4321/project/example/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/project/example/</guid>
+      <description>&lt;h2 id=&#34;smooth-lyapunov-barrier-theorems-for-reach-avoid-stay-control&#34;&gt;Smooth Lyapunov-Barrier Theorems for Reach-Avoid-Stay Control&lt;/h2&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+   Stability, reachability, and safety are crucial properties of dynamical systems. While verification and control synthesis of reach–avoid–stay objectives can be effectively handled by abstraction-based formal methods, such approaches can be computationally expensive. In contrast, Lyapunov-barrier methods qualitatively characterize stability and safety properties without any state–space discretization.
+   &lt;/div&gt;
+&lt;div style=&#34;height: 10px;&#34;&gt;&lt;/div&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+However, Lyapunov and barrier function conditions are sometimes viewed as competing objectives. In this series of works, we provide a unified theoretical treatment of Lyapunov and barrier functions for finite-dimensional dynamical systems with different types of uncertainties. 
+  &lt;/div&gt;
+&lt;h2 id=&#34;dimension-reduction-and-bifurcation-analysis-of-infinite-dimensional-stochastic-dynamical-systems&#34;&gt;Dimension Reduction and Bifurcation Analysis of Infinite-Dimensional Stochastic Dynamical Systems&lt;/h2&gt;
+ &lt;div style=&#34;text-align: justify;&#34;&gt;
+ Identifying bifurcation points is crucial for safety-critical operations. In contrast to the deterministic setting, stochastic bifurcation is not well understood, particularly for infinite-dimensional systems. We focus on semilinear stochastic partial differential equations (SPDEs) and address this challenge by utilizing a multiscale approximation of the dynamics through amplitude equations. This approach is particularly effective due to the inherent spectral gap of the linear or linearized differential operator. The study of the impact of additive noise and multiplicative noise is also fundamentally different.
+  &lt;/div&gt;
+&lt;h3 id=&#34;additive-noise&#34;&gt;Additive Noise&lt;/h3&gt;
+  &lt;div style=&#34;text-align: justify;&#34;&gt;
+ The results verify that as the noise becomes smaller, a lower-dimensional Markov process characterizes the limiting behavior. The low-dimensional approximation near a deterministic Hopf bifurcation point performs well in terms of simulating the distribution, density, as well as the top Lyapunov exponent of the full system. This stochastic analysis is applied in predicting the safe operating range of jet engine compressors. The approximated Instability margins in the presence of uncertainties will eventually lead to lighter and more efficient jet engine design.
+  &lt;/div&gt;
+&lt;h3 id=&#34;multiplicative-noise&#34;&gt;Multiplicative Noise&lt;/h3&gt;
+  &lt;div style=&#34;text-align: justify;&#34;&gt;
+ We propose an approximation scheme and investigate the error. This includes the error of transient solutions up to a fixed time, as well as the distance between the invariant measures. Unlike the finite-dimensional amplitude equations in the aforementioned additive noise case, which serve as the limiting equations for the corresponding infinite-dimensional dynamics, the purpose of the approximation scheme is not to reduce the dimension via homogenization. We do not negate the coupling effects in the nonlinearities or the multiplicative noise. This approach aims to retain as much interaction information between the critical and stable modes as present in the original dynamics. Ultimately, this simplified scheme is used along with the linearized equations to analyze the structural changes in random attractors when the trivial solution loses its stability.
+  &lt;/div&gt;
+ &lt;div style=&#34;height: 10px;&#34;&gt;&lt;/div&gt;
+   &lt;div style=&#34;text-align: justify;&#34;&gt;
+Through the analysis, we have found that this coupling slightly impacts both the D-bifurcation and P-bifurcation points through second-order corrections. Unlike in the deterministic case—where deterministic parametric perturbations don&#39;t influence structural stability—even a minor intensity of stochastic perturbations from the stable modes shifts both the dynamical and phenomenological bifurcation points.
+  &lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
