@@ -2,69 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Article | Yiming Meng</title>
-    <link>http://localhost:4321/publication-type/article/</link>
-      <atom:link href="http://localhost:4321/publication-type/article/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://Yiming-Meng.github.io/publication-type/article/</link>
+      <atom:link href="https://Yiming-Meng.github.io/publication-type/article/index.xml" rel="self" type="application/rss+xml" />
     <description>Article</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:4321/media/icon_hued5b44fe80b908030093a7e09ec67911_44353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://Yiming-Meng.github.io/media/icon_hued5b44fe80b908030093a7e09ec67911_44353_512x512_fill_lanczos_center_3.png</url>
       <title>Article</title>
-      <link>http://localhost:4321/publication-type/article/</link>
+      <link>https://Yiming-Meng.github.io/publication-type/article/</link>
     </image>
     
     <item>
       <title>Koopman-Based Data-Driven Techniques for Adaptive Cruise Control System Identification</title>
-      <link>http://localhost:4321/publication/preprint/koopman_traffic/</link>
+      <link>https://Yiming-Meng.github.io/publication/preprint/koopman_traffic/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/publication/preprint/koopman_traffic/</guid>
+      <guid>https://Yiming-Meng.github.io/publication/preprint/koopman_traffic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Koopman-Based Learning of Infinitesimal Generators without Operator Logarithm</title>
-      <link>http://localhost:4321/publication/preprint/koopman_id/</link>
+      <link>https://Yiming-Meng.github.io/publication/preprint/koopman_id/</link>
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/publication/preprint/koopman_id/</guid>
+      <guid>https://Yiming-Meng.github.io/publication/preprint/koopman_id/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Physics-Informed Extreme Learning Machine Lyapunov Functions</title>
-      <link>http://localhost:4321/publication/preprint/pinn_elm/</link>
+      <link>https://Yiming-Meng.github.io/publication/preprint/pinn_elm/</link>
       <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/publication/preprint/pinn_elm/</guid>
+      <guid>https://Yiming-Meng.github.io/publication/preprint/pinn_elm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Online Learning and Control Synthesis for Reachable Paths of Unknown Nonlinear Systems</title>
-      <link>http://localhost:4321/publication/preprint/online_control/</link>
+      <link>https://Yiming-Meng.github.io/publication/preprint/online_control/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/publication/preprint/online_control/</guid>
+      <guid>https://Yiming-Meng.github.io/publication/preprint/online_control/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Physics-Informed Neural Network Lyapunov Functions: PDE Characterization, Learning, and Verification</title>
-      <link>http://localhost:4321/publication/preprint/pinn_zubov/</link>
+      <link>https://Yiming-Meng.github.io/publication/preprint/pinn_zubov/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/publication/preprint/pinn_zubov/</guid>
+      <guid>https://Yiming-Meng.github.io/publication/preprint/pinn_zubov/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Asymptotic Approximation of the Maximal Lyapunov Exponent of Moore-Greitzer PDE model with Multiplicative Noise close to Stall Bifurcation</title>
-      <link>http://localhost:4321/publication/preprint/as_stability/</link>
+      <link>https://Yiming-Meng.github.io/publication/preprint/as_stability/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/publication/preprint/as_stability/</guid>
+      <guid>https://Yiming-Meng.github.io/publication/preprint/as_stability/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Regions of Attraction in Unknown Dynamical Systems via Zubov-Koopman Lifting: Regularities and Convergence</title>
-      <link>http://localhost:4321/publication/preprint/zk_learning/</link>
+      <link>https://Yiming-Meng.github.io/publication/preprint/zk_learning/</link>
       <pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/publication/preprint/zk_learning/</guid>
+      <guid>https://Yiming-Meng.github.io/publication/preprint/zk_learning/</guid>
       <description></description>
     </item>
     

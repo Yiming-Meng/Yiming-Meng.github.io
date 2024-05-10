@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research | Yiming Meng</title>
-    <link>http://localhost:4321/project/</link>
-      <atom:link href="http://localhost:4321/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://Yiming-Meng.github.io/project/</link>
+      <atom:link href="https://Yiming-Meng.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Research</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:4321/media/icon_hued5b44fe80b908030093a7e09ec67911_44353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://Yiming-Meng.github.io/media/icon_hued5b44fe80b908030093a7e09ec67911_44353_512x512_fill_lanczos_center_3.png</url>
       <title>Research</title>
-      <link>http://localhost:4321/project/</link>
+      <link>https://Yiming-Meng.github.io/project/</link>
     </image>
     
     <item>
       <title>Learning and Control for Dynamical Systems</title>
-      <link>http://localhost:4321/project/data_driven/</link>
+      <link>https://Yiming-Meng.github.io/project/data_driven/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/project/data_driven/</guid>
+      <guid>https://Yiming-Meng.github.io/project/data_driven/</guid>
       <description>&lt;h2 id=&#34;data-driven-system-identification&#34;&gt;Data-Driven System Identification&lt;/h2&gt;
 &lt;div style=&#34;text-align: justify;&#34;&gt;
   Estimating the region of attraction (ROA) of an asymptotically stable attractor is crucial in the analysis of nonlinear systems. We propose a lifting approach to map observable data into an infinite-dimensional function space, which generates a flow governed by the proposed Koopman-based operators. This approach enables us to approximate the system transition and indirectly estimate the solution (value function) to Zubov’s Equation.  The approximator&#39;s non-trivial sub-level sets, with values ranging from (0, 1], form the exact ROA. This approximation is achieved by learning the operator over a fixed time interval. We demonstrate that a transformation of such an approximator can be readily utilized as a near-maximal Lyapunov function. We show that this approach reduces the amount of data and can yield desirable estimation results.
@@ -31,9 +31,9 @@ Systems across domains operate with limited information, such as uncertainties a
     
     <item>
       <title>Physics-Informed Neural Optimality</title>
-      <link>http://localhost:4321/project/pinn/</link>
+      <link>https://Yiming-Meng.github.io/project/pinn/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/project/pinn/</guid>
+      <guid>https://Yiming-Meng.github.io/project/pinn/</guid>
       <description>&lt;div style=&#34;text-align: justify;&#34;&gt;
    In continuous environments, optimality-related quantities for finite-dimensional dynamical systems usually exist in the lifted function/functional spaces, which are solutions to optimality-induced partial differential equations (PDEs). We develop analysis and computation tools in this regard.
    &lt;/div&gt;
@@ -42,9 +42,9 @@ Systems across domains operate with limited information, such as uncertainties a
     
     <item>
       <title>Formal Methods</title>
-      <link>http://localhost:4321/project/formal_methods/</link>
+      <link>https://Yiming-Meng.github.io/project/formal_methods/</link>
       <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/project/formal_methods/</guid>
+      <guid>https://Yiming-Meng.github.io/project/formal_methods/</guid>
       <description>&lt;h2 id=&#34;abstraction-based-formal-methods-for-stochastic-dynamical-systems&#34;&gt;Abstraction-Based Formal Methods for Stochastic Dynamical Systems&lt;/h2&gt;
 &lt;div style=&#34;text-align: justify;&#34;&gt;
    Abstraction-based formal synthesis relies on obtaining a finite-state abstraction (or symbolic model) of the original and possibly nonlinear systems. Computational methods, such as graph-based model checking and automaton-guided controller synthesis, are then developed based on the abstraction to verify the system or synthesize controllers with respect to a temporal logic specification. Abstractions enable autonomous decision-making of physical systems to achieve more complex tasks and have received significant success in the past decade. Regardless of heavy state-space discretization and complicated abstraction analysis, formal methods compute with guarantees a set of initial states from which a controller exists to realize the given specification. So far, abstraction-based formal verification and control synthesis for deterministic systems has gained its maturity. Sound and approximately complete finite (not just finite-state) abstractions can be achieved.
@@ -58,9 +58,9 @@ However, to determine the &#34;size&#34; of the abstractions for stochastic syst
     
     <item>
       <title>Nonlinear System Analysis</title>
-      <link>http://localhost:4321/project/example/</link>
+      <link>https://Yiming-Meng.github.io/project/example/</link>
       <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/project/example/</guid>
+      <guid>https://Yiming-Meng.github.io/project/example/</guid>
       <description>&lt;h2 id=&#34;smooth-lyapunov-barrier-theorems-for-reach-avoid-stay-control&#34;&gt;Smooth Lyapunov-Barrier Theorems for Reach-Avoid-Stay Control&lt;/h2&gt;
 &lt;div style=&#34;text-align: justify;&#34;&gt;
    Stability, reachability, and safety are crucial properties of dynamical systems. While verification and control synthesis of reach–avoid–stay objectives can be effectively handled by abstraction-based formal methods, such approaches can be computationally expensive. In contrast, Lyapunov-barrier methods qualitatively characterize stability and safety properties without any state–space discretization.

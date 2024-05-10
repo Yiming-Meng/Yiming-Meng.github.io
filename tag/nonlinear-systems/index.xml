@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nonlinear Systems | Yiming Meng</title>
-    <link>http://localhost:4321/tag/nonlinear-systems/</link>
-      <atom:link href="http://localhost:4321/tag/nonlinear-systems/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://Yiming-Meng.github.io/tag/nonlinear-systems/</link>
+      <atom:link href="https://Yiming-Meng.github.io/tag/nonlinear-systems/index.xml" rel="self" type="application/rss+xml" />
     <description>Nonlinear Systems</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:4321/media/icon_hued5b44fe80b908030093a7e09ec67911_44353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://Yiming-Meng.github.io/media/icon_hued5b44fe80b908030093a7e09ec67911_44353_512x512_fill_lanczos_center_3.png</url>
       <title>Nonlinear Systems</title>
-      <link>http://localhost:4321/tag/nonlinear-systems/</link>
+      <link>https://Yiming-Meng.github.io/tag/nonlinear-systems/</link>
     </image>
     
     <item>
       <title>Nonlinear System Analysis</title>
-      <link>http://localhost:4321/project/example/</link>
+      <link>https://Yiming-Meng.github.io/project/example/</link>
       <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/project/example/</guid>
+      <guid>https://Yiming-Meng.github.io/project/example/</guid>
       <description>&lt;h2 id=&#34;smooth-lyapunov-barrier-theorems-for-reach-avoid-stay-control&#34;&gt;Smooth Lyapunov-Barrier Theorems for Reach-Avoid-Stay Control&lt;/h2&gt;
 &lt;div style=&#34;text-align: justify;&#34;&gt;
    Stability, reachability, and safety are crucial properties of dynamical systems. While verification and control synthesis of reach–avoid–stay objectives can be effectively handled by abstraction-based formal methods, such approaches can be computationally expensive. In contrast, Lyapunov-barrier methods qualitatively characterize stability and safety properties without any state–space discretization.
