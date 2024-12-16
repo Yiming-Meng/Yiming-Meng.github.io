@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 10, 2024 --><html lang="en-us" >
+<!-- Last Published: December 16, 2024 --><html lang="en-us" >
 
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -70,7 +70,7 @@
 
   
 
-  <link rel="stylesheet" href="/css/vendor-bundle.min.26c458e6907dc03073573976b7f4044e.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.css" media="print" onload="this.media='all'">
 
   
   
@@ -214,7 +214,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.71459887d22679aaabdfdadfe0f3349e.css" />
+  <link rel="stylesheet" href="/css/wowchemy.css" />
 
   
   
@@ -283,8 +283,8 @@
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://Yiming-Meng.github.io/project/data_driven/" />
-<link rel="canonical" href="https://Yiming-Meng.github.io/project/data_driven/" />
+<link rel="alternate" hreflang="en-us" href="http://localhost:4321/project/data_driven/" />
+<link rel="canonical" href="http://localhost:4321/project/data_driven/" />
 
 
 
@@ -317,7 +317,7 @@
 
   <meta property="twitter:site" content="@GetResearchDev" />
   <meta property="twitter:creator" content="@GetResearchDev" />
-<meta property="twitter:image" content="https://Yiming-Meng.github.io/project/data_driven/featured.jpeg" />
+<meta property="twitter:image" content="http://localhost:4321/project/data_driven/featured.jpeg" />
 
 
 
@@ -325,9 +325,9 @@
 
 <meta property="og:type" content="article" />
 <meta property="og:site_name" content="Yiming Meng" />
-<meta property="og:url" content="https://Yiming-Meng.github.io/project/data_driven/" />
+<meta property="og:url" content="http://localhost:4321/project/data_driven/" />
 <meta property="og:title" content="Learning and Control for Dynamical Systems | Yiming Meng" />
-<meta property="og:description" content="For systems with limited knowledge, identifying system properties from observable data is vital to decision-making. We develop data-driven tools to estimate the system transition, winning set (with respect to the control objectives)  and safe operation ranges, as well as to synthesize feasible controllers. " /><meta property="og:image" content="https://Yiming-Meng.github.io/project/data_driven/featured.jpeg" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="For systems with limited knowledge, identifying system properties from observable data is vital to decision-making. We develop data-driven tools to estimate the system transition, winning set (with respect to the control objectives)  and safe operation ranges, as well as to synthesize feasible controllers. " /><meta property="og:image" content="http://localhost:4321/project/data_driven/featured.jpeg" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -360,12 +360,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://Yiming-Meng.github.io/project/data_driven/"
+    "@id": "http://localhost:4321/project/data_driven/"
   },
   "headline": "Learning and Control for Dynamical Systems",
   
   "image": [
-    "https://Yiming-Meng.github.io/project/data_driven/featured.jpeg"
+    "http://localhost:4321/project/data_driven/featured.jpeg"
   ],
   
   "datePublished": "2023-10-27T00:00:00Z",
@@ -381,7 +381,7 @@
     "name": "Yiming Meng",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://Yiming-Meng.github.io/media/icon_hued5b44fe80b908030093a7e09ec67911_44353_192x192_fill_lanczos_center_3.png"
+      "url": "http://localhost:4321/media/icon_hued5b44fe80b908030093a7e09ec67911_44353_192x192_fill_lanczos_center_3.png"
     }
   },
   "description": "For systems with limited knowledge, identifying system properties from observable data is vital to decision-making. We develop data-driven tools to estimate the system transition, winning set (with respect to the control objectives)  and safe operation ranges, as well as to synthesize feasible controllers. "
@@ -437,7 +437,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.4fef3e534144e9903491f0cc6527eccd.js"></script>
+  <script src="/js/wowchemy-init.min.js"></script>
 
   
 
@@ -859,7 +859,7 @@
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 463px;">
   <div style="position: relative">
     <img src="/project/data_driven/featured_hu547365ad692449d945903dfd7e696f70_79145_e06495f164db410313ab50af70912aa5.webp" width="720" height="463" alt="" class="featured-image">
-    <span class="article-header-caption">Photo by <a href="https://www.insiris.com/blog/machine-learning-in-the-real-world" target="_blank" rel="noopener">https://www.insiris.com/blog/machine-learning-in-the-real-world</a></span>
+    
   </div>
 </div>
 
@@ -870,12 +870,37 @@
     <div class="article-style">
       <h2 id="data-driven-system-identification">Data-Driven System Identification</h2>
 <div style="text-align: justify;">
-  Estimating the region of attraction (ROA) of an asymptotically stable attractor is crucial in the analysis of nonlinear systems. We propose a lifting approach to map observable data into an infinite-dimensional function space, which generates a flow governed by the proposed Koopman-based operators. This approach enables us to approximate the system transition and indirectly estimate the solution (value function) to Zubov’s Equation.  The approximator's non-trivial sub-level sets, with values ranging from (0, 1], form the exact ROA. This approximation is achieved by learning the operator over a fixed time interval. We demonstrate that a transformation of such an approximator can be readily utilized as a near-maximal Lyapunov function. We show that this approach reduces the amount of data and can yield desirable estimation results.
+We propose a <span style="color: #806FD6; font-style: italic; font-weight: bold;">Koopman generator learning</span> approach, the Resolvent-type method, which can potentially ease the requirements for high sampling frequency and reduce bias in the choice of dictionary test functions. The method has been successfully applied to multiple applications, such as <span style="color: #806FD6; font-style: italic; font-weight: bold;">system identification</span>, <span style="color: #806FD6; font-style: italic; font-weight: bold;">optimal control</span>, and <span style="color: #806FD6; font-style: italic; font-weight: bold;">learning Lyapunov certificates</span> for <span style="color: #CC3174; font-style: italic; font-weight: bold;">unknown systems</span>.
+ </div>
+<div style="height: 10px;"></div>
+<div style="text-align: justify;">
+   We have also proposed an alternative Koopman-like operator method, namely the <span style="color: #806FD6; font-style: italic; font-weight: bold;">Zubov-Koopman operator</span>, for predicting the stability of unknown systems. This approach enables us to approximate the system transition and indirectly estimate the solution (value function) to Zubov’s Equation.  The approximator's non-trivial sub-level sets, with values ranging from (0, 1], form the exact region of attraction (ROA). This approximation is achieved by learning the operator over a fixed time interval. We demonstrate that a transformation of such an approximator can be readily utilized as a near-maximal Lyapunov function. We show that this approach reduces the amount of data and can yield desirable estimation results.
+<figure style="text-align: center;">
+<img src="ROA.png" alt="Description of the image" style="width: 50%; height: auto;">
+<figcaption>Caption: Prediction of the Region of Attraction (ROA) using the Zubov-Koopman operator (ZK) and Sum-of-Squares (SOS) for a two-machine power system.</figcaption>
+</figure>
    </div>
 <div style="height: 10px;"></div>
+<p>To improve, further efforts listed below are needed.</p>
+<ul>
+<li>Data efficiency analysis</li>
+<li>Dimension reduction</li>
+<li>Online learning adaptation</li>
+</ul>
 <h2 id="online-learning-and-control-synthesis-for-reachable-paths-of-unknown-nonlinear-systems">Online Learning and Control Synthesis for Reachable Paths of Unknown Nonlinear Systems</h2>
 <div style="text-align: justify;">
-Systems across domains operate with limited information, such as uncertainties arising from an insufficient understanding of system transitions and external forces.  In this research, we focus on situations where the nonlinear system is partially unknown, with our knowledge limited to its local dynamics at a single point and constraints on the rate of change of these dynamics. Based on this limited information, we aim to implement the following pipeline for the system: First, we identify a set of states, known as the Guaranteed Reachable Set (GRS), that the unknown system can provably reach within a given timeframe from the point of known information, using underapproximation proxy dynamics. Then, we specify a  state on the boundary of the GRS and synthesize a controller, enabling the partially unknown  system to approach the vicinity of this state. 
+Systems across domains operate with limited information, such as uncertainties arising from an insufficient understanding of system transitions and external forces.  In this research, we focus on situations where the nonlinear system is partially unknown, with our knowledge limited to its local dynamics at a single point and constraints on the rate of change of these dynamics. Based on this limited information, we aim to implement the following pipeline for the system: First, we identify a set of states, known as the Guaranteed Reachable Set (GRS), that the unknown system can provably reach within a given timeframe from the point of known information, using underapproximation proxy dynamics. Then, we specify a  state on the boundary of the GRS and synthesize a controller, enabling the partially unknown  system to approach the vicinity of this state.  </div>
+<div style="height: 10px;"></div>
+<div style="text-align: justify;">
+Below is a video demonstrating autonomous waypoint navigation  appied onto an autonomous vehicle using the proposed method. We show that the car can avoid unsafe regions while safely following a narrow path to its final destination. (Video credit to <a href="https://tahashafa.com/">Taha Shafa</a>.)
+<video width="320" height="240" controls>
+      <source src="RPC1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+   </video>Caption: State plot of reachable predictive control for autonomous vehicles operating with unknown dynamics. Left: zoomed-in, right: normal scale. (Video credit to <a href="https://tahashafa.com/">Taha Shafa</a>.) 
+   <video width="320" height="240" controls>
+      <source src="RPC_GRS.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+   </video>Caption: Reachable predictive control for autonomous vehicles operating with unknown dynamics.  (Video credit to <a href="https://tahashafa.com/">Taha Shafa</a>.)
    </div>
 
     </div>
@@ -1050,98 +1075,7 @@ Systems across domains operate with limited information, such as uncertainties a
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/preprint/koopman_traffic/" >Koopman-Based Data-Driven Techniques for Adaptive Cruise Control System Identification</a>
-    </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Y. Meng</span>, <span >
-      H. Li</span>, <span >
-      M. Ornik</span>, <span >
-      X. Li</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/data_driven/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-        
-          
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/preprint/koopman_id/" >Koopman-Based Learning of Infinitesimal Generators without Operator Logarithm</a>
+      <a href="/publication/conference-paper/cdc24/" >Koopman-Based Learning of Infinitesimal Generators without Operator Logarithm</a>
     </div>
 
     
@@ -1211,6 +1145,507 @@ Systems across domains operate with limited information, such as uncertainties a
   Source Document
 </a>
 
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/preprint/koopman_optimal/" >Data-driven optimal control of unknown nonlinear dynamical systems using the Koopman operator</a>
+    </div>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Z. Zeng</span>, <span >
+      R. Zhou</span>, <span >
+      Y. Meng</span>, <span >
+      J. Liu</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://drive.google.com/file/d/10A9wP8yW1flU4fsnF86FxsAau18wviKW/view?usp=drive_link" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/data_driven/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/preprint/koopman_lyapunov/" >Learning Koopman-based Stability Certificates for Unknown Nonlinear Systems</a>
+    </div>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      R. Zhou</span>, <span >
+      Y. Meng</span>, <span >
+      Z. Zeng</span>, <span >
+      J. Liu</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://drive.google.com/file/d/1VJ0R_bE5cHpQCkTAyNZzwU00jW4Lu2D5/view?usp=drive_link" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/data_driven/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/preprint/koopman_generator/" >Resolvent-Type Data-Driven Learning of Generators for Unknown Continuous-Time Dynamical Systems</a>
+    </div>
+
+    
+    <a href="/publication/preprint/koopman_generator/"  class="summary-link">
+      <div class="article-style">
+         Equal Contribution 
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Y. Meng</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      R. Zhou</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      M. Ornik</span>, <span >
+      J. Liu</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://drive.google.com/file/d/1Znn3NifaeHTXfj2ciG7tJIWKmYxR6NcT/view?usp=drive_link" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/data_driven/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/conference-paper/itsc24/" >Koopman-Based Data-Driven Techniques for Adaptive Cruise Control System Identification</a>
+    </div>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Y. Meng</span>, <span >
+      H. Li</span>, <span >
+      M. Ornik</span>, <span >
+      X (Shaw). Li</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://drive.google.com/file/d/1gZIXiu_UGOrQUPhkPlZYGKE2FoKKfy84/view?usp=drive_link" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/data_driven/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/conference-paper/acc24-2/" >Zubov-Koopman Learning of Maximal Lyapunov Functions</a>
+    </div>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Y. Meng</span>, <span >
+      R. Zhou</span>, <span >
+      J. Liu</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://drive.google.com/file/d/1Hqlsmgmi7Vc2QuUS4jX0oO6LSNM9-5j8/view?usp=sharing" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/conference-paper/acc24-2/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/data_driven/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.23919/ACC60939.2024.10644273" target="_blank" rel="noopener">
+  DOI
+</a>
 
 
 
@@ -1497,7 +1932,7 @@ Systems across domains operate with limited information, such as uncertainties a
 
   
   <p class="powered-by copyright-license-text">
-    Last updated: May 10, 2024 ©  Yiming Meng
+    Last updated: December 01, 2024 ©  Yiming Meng
   </p>
   
 
@@ -1540,7 +1975,7 @@ Systems across domains operate with limited information, such as uncertainties a
   
 
 
-<script src="/js/vendor-bundle.min.391d344a129df56f7ad674c2c2ed04e8.js"></script>
+<script src="/js/vendor-bundle.min.js"></script>
 
 
 
@@ -1621,7 +2056,7 @@ Systems across domains operate with limited information, such as uncertainties a
 <script id="page-data" type="application/json">{"use_headroom":true}</script>
 
 
-  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+  <script src="/js/wowchemy-headroom.js" type="module"></script>
 
 
 
@@ -1635,11 +2070,11 @@ Systems across domains operate with limited information, such as uncertainties a
   
 
 
-<script src="/en/js/wowchemy.min.7f5ebaff62ae468cff8bb3dd1337bb9b.js"></script>
+<script src="/en/js/wowchemy.min.js"></script>
 
 
 
-  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+  <script src="/js/wowchemy-map.js" type="module"></script>
 
 
 
@@ -1672,7 +2107,7 @@ Systems across domains operate with limited information, such as uncertainties a
 </div>
 
 
-  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
+  <script src="/js/wowchemy-publication.js" type="module"></script>
 
 
 

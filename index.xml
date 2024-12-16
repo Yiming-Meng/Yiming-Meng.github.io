@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yiming Meng</title>
-    <link>https://Yiming-Meng.github.io/</link>
-      <atom:link href="https://Yiming-Meng.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4321/</link>
+      <atom:link href="http://localhost:4321/index.xml" rel="self" type="application/rss+xml" />
     <description>Yiming Meng</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://Yiming-Meng.github.io/media/icon_hued5b44fe80b908030093a7e09ec67911_44353_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:4321/media/icon_hued5b44fe80b908030093a7e09ec67911_44353_512x512_fill_lanczos_center_3.png</url>
       <title>Yiming Meng</title>
-      <link>https://Yiming-Meng.github.io/</link>
+      <link>http://localhost:4321/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>https://Yiming-Meng.github.io/talk/example-talk/</link>
+      <link>http://localhost:4321/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/talk/example-talk/</guid>
+      <guid>http://localhost:4321/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -33,58 +33,174 @@
     </item>
     
     <item>
+      <title>Koopman-Based Learning of Infinitesimal Generators without Operator Logarithm</title>
+      <link>http://localhost:4321/publication/conference-paper/cdc24/</link>
+      <pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/conference-paper/cdc24/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Almost Sure Asymptotic Stability of Parabolic SPDEs with Small Multiplicative Noise</title>
+      <link>http://localhost:4321/publication/journal-article/ds24/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/journal-article/ds24/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data-driven optimal control of unknown nonlinear dynamical systems using the Koopman operator</title>
+      <link>http://localhost:4321/publication/preprint/koopman_optimal/</link>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/preprint/koopman_optimal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Koopman-based Stability Certificates for Unknown Nonlinear Systems</title>
+      <link>http://localhost:4321/publication/preprint/koopman_lyapunov/</link>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/preprint/koopman_lyapunov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resolvent-Type Data-Driven Learning of Generators for Unknown Continuous-Time Dynamical Systems</title>
+      <link>http://localhost:4321/publication/preprint/koopman_generator/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/preprint/koopman_generator/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Equal Contribution
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chairing the Invited Session on AI-Enhanced Safety-Certifiable Autonomous Vehicles at IEEE ITSC 2024.</title>
+      <link>http://localhost:4321/post/20240924/</link>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/post/20240924/</guid>
+      <description>&lt;div style=&#34;text-align: justify;&#34;&gt;
+The invited session AI-Enhanced Safety-Certifiable Autonomous Vehicles was successfully held on Wednesday, September 25, 2024, at the  &lt;a href=&#34;https://ieee-itsc.org/2024/&#34;&gt;27th IEEE International Conference on Intelligent Transportation Systems (ITSC)&lt;/a&gt;. I am honored to have chaired this session together with Prof. &lt;a href=&#34;https://engineering.nyu.edu/faculty/zhong-ping-jiang&#34;&gt;Zhong-Ping Jiang&lt;/a&gt; (NYU), and I am pleased to have also delivered a presentation on Koopman generator learning and its application in transportation problems to identify dynamical systems for commercial vehicles (&lt;a href=&#34;https://drive.google.com/file/d/1gZIXiu_UGOrQUPhkPlZYGKE2FoKKfy84/view?usp=drive_link&#34;&gt;see the paper here&lt;/a&gt;). Credit is also given to the co-organizers: Prof. &lt;a href=&#34;https://aerospace.illinois.edu/directory/profile/mornik&#34;&gt;Melkior Ornik &lt;/a&gt; (UIUC), Prof. &lt;a href=&#34;https://directory.engr.wisc.edu/cee/Faculty/Li_Xiaopeng/&#34;&gt;Xiaopeng (Shaw) Li&lt;/a&gt; (University of Wisconsin-Madison), &lt;a href=&#34;https://hangyu-li.github.io/&#34;&gt;Hangyu Li&lt;/a&gt;  (Ph.D. candidate at the University of Wisconsin-Madison), and Dr. &lt;a href=&#34;https://scholar.google.nl/citations?user=BWUpn24AAAAJ&amp;hl=zh-CN&#34;&gt;Heye Huang&lt;/a&gt;  (postdoc at the University of Wisconsin-Madison). 
+   &lt;/div&gt;
+   &lt;div style=&#34;height: 10px;&#34;&gt;&lt;/div&gt;
+   &lt;div style=&#34;text-align: justify;&#34;&gt;
+I am also pleased to connect with experts in transportation systems and discuss potential collaborations on control problems in intelligent transportation.
+   &lt;/div&gt;
+&lt;figure style=&#34;text-align: center;&#34;&gt;
+&lt;img src=&#34;pic.jpeg&#34; alt=&#34;Description of the image&#34; style=&#34;width: 70%; height: auto;&#34;&gt;
+&lt;figcaption&gt;Caption: A group photo taken after the invited session. From left to right: Xianda Chen (HKUST, GZ), Prof. Zhong-Ping Jiang (NYU), Prof. Xiaopeng (Shaw) Li (UW-Madison), Dr. Yiming Meng (UIUC).&lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Koopman-Based Data-Driven Techniques for Adaptive Cruise Control System Identification</title>
+      <link>http://localhost:4321/publication/conference-paper/itsc24/</link>
+      <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/conference-paper/itsc24/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two works were presented in July.</title>
+      <link>http://localhost:4321/post/20240730/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/post/20240730/</guid>
+      <description>&lt;div style=&#34;text-align: justify;&#34;&gt;
+Two conferences, &lt;a href=&#34;https://acc2024.a2c2.org/&#34;&gt;ACC&lt;/a&gt;  and &lt;a href=&#34;https://icml.cc/Conferences/2024&#34;&gt;ICML&lt;/a&gt;, were held in July. The work on a recently developed  &lt;a href=&#34;https://drive.google.com/file/d/1Hqlsmgmi7Vc2QuUS4jX0oO6LSNM9-5j8/view?usp=drive_link&#34;&gt;Zubov-Koopman operator&lt;/a&gt;  for constructing   Lyapunov functions and a &lt;a href=&#34;https://drive.google.com/file/d/1Ag9lTVnCicHj4sUqj4YBNJtTgDWW3DVv/view?usp=drive_link&#34;&gt;PINN&lt;/a&gt;  method for designing an optimal stabilizing controller were presented and gained significant attention. 
+   &lt;/div&gt;
+&lt;figure style=&#34;text-align: center;&#34;&gt;
+&lt;img src=&#34;pic.jpeg&#34; alt=&#34;Description of the image&#34; style=&#34;width: 70%; height: auto;&#34;&gt;
+&lt;figcaption&gt;Caption: A photo taken with Prof. &lt;a href=&#34;https://en.wikipedia.org/wiki/Eduardo_D._Sontag&#34;&gt;Sontag&lt;/a&gt;   at ACC 2024 in Toronto, Canada. Prof. Sontag is renowned for his contributions to input-to-state stability (ISS) and control-Lyapunov functions, which are key stability theory concepts for nonlinear systems.&lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Physics-Informed Neural Network Policy Iteration: Algorithms, Convergence, and Verification</title>
-      <link>https://Yiming-Meng.github.io/publication/ml-conference/icml24/</link>
+      <link>http://localhost:4321/publication/ml-conference/icml24/</link>
       <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/ml-conference/icml24/</guid>
+      <guid>http://localhost:4321/publication/ml-conference/icml24/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Compositionally Verifiable Vector Neural Lyapunov Functions for Stability Analysis of Interconnected Nonlinear Systems</title>
-      <link>https://Yiming-Meng.github.io/publication/conference-paper/acc24-1/</link>
+      <link>http://localhost:4321/publication/conference-paper/acc24-1/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/conference-paper/acc24-1/</guid>
+      <guid>http://localhost:4321/publication/conference-paper/acc24-1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Zubov-Koopman Learning of Maximal Lyapunov Functions</title>
-      <link>https://Yiming-Meng.github.io/publication/conference-paper/acc24-2/</link>
+      <link>http://localhost:4321/publication/conference-paper/acc24-2/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/conference-paper/acc24-2/</guid>
+      <guid>http://localhost:4321/publication/conference-paper/acc24-2/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Talk on Physics-Informed Stability Control for Nonlinear Systems at CAIMS 2024, Kingston, Ontario, Canada.</title>
+      <link>http://localhost:4321/post/20240627/</link>
+      <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/post/20240627/</guid>
+      <description>&lt;div style=&#34;text-align: justify;&#34;&gt;
+A talk on `Physics-Informed Characterization and Control of Stability for Nonlinear Systems` was presented at the CAIMS (Canadian Applied and Industrial Mathematics Society) 2024 meeting in the subsession &lt;a href=&#34;https://caims2024.org/program/technical_program&#34;&gt;&#39;Recent Progress on the Intersections of Nonlinear Dynamics, Control, Learning, and Optimization&#39;&lt;/a&gt;.  It was truly a great experience meeting all the experts and sharing opinions with them in this area. See the abstract below.
+   &lt;/div&gt;
+&lt;div style=&#34;height: 10px;&#34;&gt;&lt;/div&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+Abstract
+ &lt;/div&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+Stability analysis of nonlinear dynamical systems is crucial in many fields, where understanding the domain of attraction for an asymptotically stable equilibrium point helps determine if systems can stabilize after experiencing faults. Since Lyapunov&#39;s landmark paper more than a hundred years ago, Lyapunov functions have been key in nonlinear stability analysis, and extensive research has been conducted on constructing Lyapunov functions through computational methods. In this research series, we systematically investigate the use of physics-informed neural networks to compute Lyapunov functions, encoding the Lyapunov conditions into the Zubov partial differential equation (PDE) for training neural networks. We demonstrate that using the Zubov equation can closely approximate regions of attraction to their true domains. We also examine approximation errors and the convergence to Zubov’s unique viscosity solution, then provide verifiable conditions for neural Lyapunov functions using satisfiability modulo theories (SMT) solvers for formal verification. The results demonstrate that this computational tool surpasses traditional sums-of-squares (SOS) methods that employ semidefinite programming (SDP). Furthermore, we expand the tool&#39;s functionalities to support the formulation and solving of optimal control problems for control-affine systems using physics-informed neural network policy iteration (PINN-PI). We outline the methodology that enables the learning and verification of PINN for optimal stabilization tasks. Demonstrating with classical control examples, we show that the learned optimal controller significantly improves performance and provides verifiable regions of attraction, especially in high-dimensional nonlinear systems. Lastly, we address the scenario of unknown systems by proposing a lifting approach that maps observable data into an infinite-dimensional function space, thus generating a flow governed by the proposed `Zubov-Koopman&#39; operators. By learning such an operator over a fixed time interval, we can indirectly approximate the solution to Zubov’s equation through iterative applications of the learned operator on the identity function. Our physics-informed algorithm, underpinned by a comprehensive investigation of the regularities of Zubov-Koopman operators and their associated quantities, demonstrates strong convergence to the true operator, reduces the amount of required data, and yields desirable estimation results.
+   &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Physics-Informed Extreme Learning Machine Lyapunov Functions</title>
+      <link>http://localhost:4321/publication/journal-article/lcss24/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/journal-article/lcss24/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A novel tool for learning and verifying neural Lyapunov functions and regions of attraction was presented.</title>
+      <link>http://localhost:4321/post/20240516/</link>
+      <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/post/20240516/</guid>
+      <description>&lt;div style=&#34;text-align: justify;&#34;&gt;
+   The tool paper  &lt;a href=&#34;https://dl.acm.org/doi/abs/10.1145/3641513.3650134&#34;&gt;&#39;TOOL LyZNet: A Lightweight Python Tool for Learning and Verifying Neural Lyapunov Functions and Regions of Attraction&#39;&lt;/a&gt;  was presented at the 27th `ACM International Conference on Hybrid Systems: Computation and Control (HSCC)` in Hong Kong and gained significant attention. What distinguishes the tool from others in the literature is its ability to provide verified regions of attraction close to the domain of attraction. Many thanks to all the authors for their hard work and dedication!
+   &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>LyZNet with Control: Physics-Informed Neural Network Control of Nonlinear Systems with Formal Guarantees</title>
-      <link>https://Yiming-Meng.github.io/publication/conference-paper/adhs24/</link>
+      <link>http://localhost:4321/publication/conference-paper/adhs24/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/conference-paper/adhs24/</guid>
+      <guid>http://localhost:4321/publication/conference-paper/adhs24/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LyZNet: A Lightweight Python Tool for Learning and Verifying Neural Lyapunov Functions and Regions of Attraction</title>
-      <link>https://Yiming-Meng.github.io/publication/conference-paper/hscc24/</link>
+      <link>http://localhost:4321/publication/conference-paper/hscc24/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/conference-paper/hscc24/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Koopman-Based Data-Driven Techniques for Adaptive Cruise Control System Identification</title>
-      <link>https://Yiming-Meng.github.io/publication/preprint/koopman_traffic/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/preprint/koopman_traffic/</guid>
+      <guid>http://localhost:4321/publication/conference-paper/hscc24/</guid>
       <description></description>
     </item>
     
     <item>
       <title>One ICML 2024 Paper Accepted</title>
-      <link>https://Yiming-Meng.github.io/post/20240501/</link>
+      <link>http://localhost:4321/post/20240501/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/post/20240501/</guid>
+      <guid>http://localhost:4321/post/20240501/</guid>
       <description>&lt;div style=&#34;text-align: justify;&#34;&gt;
    Our paper, &lt;a href=&#34;https://arxiv.org/abs/2402.10119&#34;&gt;&#39;Physics-Informed Neural Network Policy Iteration: Algorithms, Convergence, and Verification&#39;&lt;/a&gt;   has been accepted to the 2024 International Conference on Machine Learning, Vienna. Many thanks to all the authors for their hard work and dedication!
    &lt;/div&gt;
@@ -93,16 +209,16 @@
     
     <item>
       <title>Invited Session Proposal Accepted for the  ITSC 2024</title>
-      <link>https://Yiming-Meng.github.io/post/20240424/</link>
+      <link>http://localhost:4321/post/20240424/</link>
       <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/post/20240424/</guid>
+      <guid>http://localhost:4321/post/20240424/</guid>
       <description>&lt;div style=&#34;text-align: justify;&#34;&gt;
 The proposed invited session &#34;AI-Enhanced Safety-Certifiable Autonomous Vehicles&#34; has been accepted for the
   Our work on robustly complete stochastic abstractions was presented at the   &lt;a href=&#34;https://ieee-itsc.org/2024/&#34;&gt;27th IEEE International Conference on Intelligent Transportation Systems (ITSC)&lt;/a&gt;, which will be held from September 24 to 27, 2024, in Edmonton, Canada.
    &lt;/div&gt;
 &lt;h3 id=&#34;organizers&#34;&gt;Organizers&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://Yiming-Meng.github.io/#about&#34;&gt;&lt;strong&gt;Yiming Meng&lt;/strong&gt;&lt;/a&gt;, Coordinated Science Laboratory, University of Illinois Urbana-Champaign&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:4321/#about&#34;&gt;&lt;strong&gt;Yiming Meng&lt;/strong&gt;&lt;/a&gt;, Coordinated Science Laboratory, University of Illinois Urbana-Champaign&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://mornik.web.illinois.edu/&#34;&gt; Melkior Ornik&lt;/a&gt;, Coordinated Science Laboratory &amp;amp; Aerospace Engineering, University of Illinois Urbana-Champaign&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://directory.engr.wisc.edu/cee/Faculty/Li_Xiaopeng/&#34;&gt;Xiaopeng Li&lt;/a&gt;, Civil and Environmental Engineering, University of Wisconsin-Madison&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://scholar.google.nl/citations?user=BWUpn24AAAAJ&amp;hl=zh-CN&#34;&gt;Heye Huang&lt;/a&gt;, Civil and Environmental Engineering, University of Wisconsin-Madison&lt;/li&gt;
@@ -118,26 +234,10 @@ The proposed invited session &#34;AI-Enhanced Safety-Certifiable Autonomous Vehi
     </item>
     
     <item>
-      <title>Koopman-Based Learning of Infinitesimal Generators without Operator Logarithm</title>
-      <link>https://Yiming-Meng.github.io/publication/preprint/koopman_id/</link>
-      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/preprint/koopman_id/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Physics-Informed Extreme Learning Machine Lyapunov Functions</title>
-      <link>https://Yiming-Meng.github.io/publication/preprint/pinn_elm/</link>
-      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/preprint/pinn_elm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>One ADHS 2024 Paper Accepted</title>
-      <link>https://Yiming-Meng.github.io/post/20240315/</link>
+      <link>http://localhost:4321/post/20240315/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/post/20240315/</guid>
+      <guid>http://localhost:4321/post/20240315/</guid>
       <description>&lt;div style=&#34;text-align: justify;&#34;&gt;
    Our paper, &#39;LyZNet with Control: Physics-Informed Neural Network Control of Nonlinear Systems with Formal Guarantees&#39;   has been accepted to the 8th IFAC Conference on Analysis and Design of Hybrid Systems  (ADHS), Boulder.  
    &lt;/div&gt;
@@ -146,33 +246,33 @@ The proposed invited session &#34;AI-Enhanced Safety-Certifiable Autonomous Vehi
     
     <item>
       <title>Online Learning and Control Synthesis for Reachable Paths of Unknown Nonlinear Systems</title>
-      <link>https://Yiming-Meng.github.io/publication/preprint/online_control/</link>
+      <link>http://localhost:4321/publication/preprint/online_control/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/preprint/online_control/</guid>
+      <guid>http://localhost:4321/publication/preprint/online_control/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Physics-Informed Neural Network Lyapunov Functions: PDE Characterization, Learning, and Verification</title>
-      <link>https://Yiming-Meng.github.io/publication/preprint/pinn_zubov/</link>
+      <link>http://localhost:4321/publication/preprint/pinn_zubov/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/preprint/pinn_zubov/</guid>
+      <guid>http://localhost:4321/publication/preprint/pinn_zubov/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stochastic Lyapunov-Barrier Functions for Robust Probabilistic Reach-Avoid-Stay Specifications</title>
-      <link>https://Yiming-Meng.github.io/publication/journal-article/tac23/</link>
+      <link>http://localhost:4321/publication/journal-article/tac23/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/journal-article/tac23/</guid>
+      <guid>http://localhost:4321/publication/journal-article/tac23/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Paper accepted to IEEE Transaction on Automatic Control</title>
-      <link>https://Yiming-Meng.github.io/post/20240210/</link>
+      <link>http://localhost:4321/post/20240210/</link>
       <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/post/20240210/</guid>
+      <guid>http://localhost:4321/post/20240210/</guid>
       <description>&lt;div style=&#34;text-align: justify;&#34;&gt;
 After nearly two years of peer review, the  paper &lt;a href=&#34;https://drive.google.com/file/d/1j3prM9s3bcU1uDblc7Vo_kR9p4Y6l49i/view?usp=drive_link&#34;&gt;&#39;Stochastic Lyapunov-Barrier Functions for Robust Probabilistic Reach-Avoid-Stay Specifications&#39;&lt;/a&gt;   has finally been accpeted for the publication in `IEEE Transaction on Automatic Control`. 
    &lt;/div&gt;
@@ -181,9 +281,9 @@ After nearly two years of peer review, the  paper &lt;a href=&#34;https://drive.
     
     <item>
       <title>Multiple Conference Papers Accepted</title>
-      <link>https://Yiming-Meng.github.io/post/20240122/</link>
+      <link>http://localhost:4321/post/20240122/</link>
       <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/post/20240122/</guid>
+      <guid>http://localhost:4321/post/20240122/</guid>
       <description>&lt;p&gt;Two papers&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Zubov-Koopman Learning of Maximal Lyapunov Functions&lt;/code&gt;&lt;/li&gt;
@@ -199,51 +299,68 @@ After nearly two years of peer review, the  paper &lt;a href=&#34;https://drive.
     </item>
     
     <item>
-      <title>Asymptotic Approximation of the Maximal Lyapunov Exponent of Moore-Greitzer PDE model with Multiplicative Noise close to Stall Bifurcation</title>
-      <link>https://Yiming-Meng.github.io/publication/preprint/as_stability/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/preprint/as_stability/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Towards Learning and Verifying Maximal Neural Lyapunov Functions</title>
-      <link>https://Yiming-Meng.github.io/publication/conference-paper/cdc23/</link>
+      <link>http://localhost:4321/publication/conference-paper/cdc23/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/conference-paper/cdc23/</guid>
+      <guid>http://localhost:4321/publication/conference-paper/cdc23/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Regions of Attraction in Unknown Dynamical Systems via Zubov-Koopman Lifting: Regularities and Convergence</title>
-      <link>https://Yiming-Meng.github.io/publication/preprint/zk_learning/</link>
+      <link>http://localhost:4321/publication/preprint/zk_learning/</link>
       <pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/preprint/zk_learning/</guid>
+      <guid>http://localhost:4321/publication/preprint/zk_learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning and Control for Dynamical Systems</title>
-      <link>https://Yiming-Meng.github.io/project/data_driven/</link>
+      <link>http://localhost:4321/project/data_driven/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/project/data_driven/</guid>
+      <guid>http://localhost:4321/project/data_driven/</guid>
       <description>&lt;h2 id=&#34;data-driven-system-identification&#34;&gt;Data-Driven System Identification&lt;/h2&gt;
 &lt;div style=&#34;text-align: justify;&#34;&gt;
-  Estimating the region of attraction (ROA) of an asymptotically stable attractor is crucial in the analysis of nonlinear systems. We propose a lifting approach to map observable data into an infinite-dimensional function space, which generates a flow governed by the proposed Koopman-based operators. This approach enables us to approximate the system transition and indirectly estimate the solution (value function) to Zubov’s Equation.  The approximator&#39;s non-trivial sub-level sets, with values ranging from (0, 1], form the exact ROA. This approximation is achieved by learning the operator over a fixed time interval. We demonstrate that a transformation of such an approximator can be readily utilized as a near-maximal Lyapunov function. We show that this approach reduces the amount of data and can yield desirable estimation results.
+We propose a &lt;span style=&#34;color: #806FD6; font-style: italic; font-weight: bold;&#34;&gt;Koopman generator learning&lt;/span&gt; approach, the Resolvent-type method, which can potentially ease the requirements for high sampling frequency and reduce bias in the choice of dictionary test functions. The method has been successfully applied to multiple applications, such as &lt;span style=&#34;color: #806FD6; font-style: italic; font-weight: bold;&#34;&gt;system identification&lt;/span&gt;, &lt;span style=&#34;color: #806FD6; font-style: italic; font-weight: bold;&#34;&gt;optimal control&lt;/span&gt;, and &lt;span style=&#34;color: #806FD6; font-style: italic; font-weight: bold;&#34;&gt;learning Lyapunov certificates&lt;/span&gt; for &lt;span style=&#34;color: #CC3174; font-style: italic; font-weight: bold;&#34;&gt;unknown systems&lt;/span&gt;.
+ &lt;/div&gt;
+&lt;div style=&#34;height: 10px;&#34;&gt;&lt;/div&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+   We have also proposed an alternative Koopman-like operator method, namely the &lt;span style=&#34;color: #806FD6; font-style: italic; font-weight: bold;&#34;&gt;Zubov-Koopman operator&lt;/span&gt;, for predicting the stability of unknown systems. This approach enables us to approximate the system transition and indirectly estimate the solution (value function) to Zubov’s Equation.  The approximator&#39;s non-trivial sub-level sets, with values ranging from (0, 1], form the exact region of attraction (ROA). This approximation is achieved by learning the operator over a fixed time interval. We demonstrate that a transformation of such an approximator can be readily utilized as a near-maximal Lyapunov function. We show that this approach reduces the amount of data and can yield desirable estimation results.
+&lt;figure style=&#34;text-align: center;&#34;&gt;
+&lt;img src=&#34;ROA.png&#34; alt=&#34;Description of the image&#34; style=&#34;width: 50%; height: auto;&#34;&gt;
+&lt;figcaption&gt;Caption: Prediction of the Region of Attraction (ROA) using the Zubov-Koopman operator (ZK) and Sum-of-Squares (SOS) for a two-machine power system.&lt;/figcaption&gt;
+&lt;/figure&gt;
    &lt;/div&gt;
 &lt;div style=&#34;height: 10px;&#34;&gt;&lt;/div&gt;
+&lt;p&gt;To improve, further efforts listed below are needed.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data efficiency analysis&lt;/li&gt;
+&lt;li&gt;Dimension reduction&lt;/li&gt;
+&lt;li&gt;Online learning adaptation&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;online-learning-and-control-synthesis-for-reachable-paths-of-unknown-nonlinear-systems&#34;&gt;Online Learning and Control Synthesis for Reachable Paths of Unknown Nonlinear Systems&lt;/h2&gt;
 &lt;div style=&#34;text-align: justify;&#34;&gt;
-Systems across domains operate with limited information, such as uncertainties arising from an insufficient understanding of system transitions and external forces.  In this research, we focus on situations where the nonlinear system is partially unknown, with our knowledge limited to its local dynamics at a single point and constraints on the rate of change of these dynamics. Based on this limited information, we aim to implement the following pipeline for the system: First, we identify a set of states, known as the Guaranteed Reachable Set (GRS), that the unknown system can provably reach within a given timeframe from the point of known information, using underapproximation proxy dynamics. Then, we specify a  state on the boundary of the GRS and synthesize a controller, enabling the partially unknown  system to approach the vicinity of this state. 
+Systems across domains operate with limited information, such as uncertainties arising from an insufficient understanding of system transitions and external forces.  In this research, we focus on situations where the nonlinear system is partially unknown, with our knowledge limited to its local dynamics at a single point and constraints on the rate of change of these dynamics. Based on this limited information, we aim to implement the following pipeline for the system: First, we identify a set of states, known as the Guaranteed Reachable Set (GRS), that the unknown system can provably reach within a given timeframe from the point of known information, using underapproximation proxy dynamics. Then, we specify a  state on the boundary of the GRS and synthesize a controller, enabling the partially unknown  system to approach the vicinity of this state.  &lt;/div&gt;
+&lt;div style=&#34;height: 10px;&#34;&gt;&lt;/div&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+Below is a video demonstrating autonomous waypoint navigation  appied onto an autonomous vehicle using the proposed method. We show that the car can avoid unsafe regions while safely following a narrow path to its final destination. (Video credit to &lt;a href=&#34;https://tahashafa.com/&#34;&gt;Taha Shafa&lt;/a&gt;.)
+&lt;video width=&#34;320&#34; height=&#34;240&#34; controls&gt;
+      &lt;source src=&#34;RPC1.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      Your browser does not support the video tag.
+   &lt;/video&gt;Caption: State plot of reachable predictive control for autonomous vehicles operating with unknown dynamics. Left: zoomed-in, right: normal scale. (Video credit to &lt;a href=&#34;https://tahashafa.com/&#34;&gt;Taha Shafa&lt;/a&gt;.) 
+   &lt;video width=&#34;320&#34; height=&#34;240&#34; controls&gt;
+      &lt;source src=&#34;RPC_GRS.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      Your browser does not support the video tag.
+   &lt;/video&gt;Caption: Reachable predictive control for autonomous vehicles operating with unknown dynamics.  (Video credit to &lt;a href=&#34;https://tahashafa.com/&#34;&gt;Taha Shafa&lt;/a&gt;.)
    &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Physics-Informed Neural Optimality</title>
-      <link>https://Yiming-Meng.github.io/project/pinn/</link>
+      <link>http://localhost:4321/project/pinn/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/project/pinn/</guid>
+      <guid>http://localhost:4321/project/pinn/</guid>
       <description>&lt;div style=&#34;text-align: justify;&#34;&gt;
    In continuous environments, optimality-related quantities for finite-dimensional dynamical systems usually exist in the lifted function/functional spaces, which are solutions to optimality-induced partial differential equations (PDEs). We develop analysis and computation tools in this regard.
    &lt;/div&gt;
@@ -252,9 +369,9 @@ Systems across domains operate with limited information, such as uncertainties a
     
     <item>
       <title>Joining A New Research Group at UIUC</title>
-      <link>https://Yiming-Meng.github.io/post/20231016/</link>
+      <link>http://localhost:4321/post/20231016/</link>
       <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/post/20231016/</guid>
+      <guid>http://localhost:4321/post/20231016/</guid>
       <description>&lt;div style=&#34;text-align: justify;&#34;&gt;
    I joined the  &lt;a href=&#34;https://mornik.web.illinois.edu/research/group/&#34;&gt;LEADCAT&lt;/a&gt;  (LEArning, Decision, Control, AuTonomy)  research group at the Aerospace Engineering Department, University of Illinois Urbana-Champaign, and began my role as a Postdoctoral Research Associate. 
    &lt;/div&gt;
@@ -263,9 +380,9 @@ Systems across domains operate with limited information, such as uncertainties a
     
     <item>
       <title>Work Presented at IUTAM</title>
-      <link>https://Yiming-Meng.github.io/post/20230731/</link>
+      <link>http://localhost:4321/post/20230731/</link>
       <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/post/20230731/</guid>
+      <guid>http://localhost:4321/post/20230731/</guid>
       <description>&lt;div style=&#34;text-align: justify;&#34;&gt;
    Our work on estimating the maximal Lyapunov exponent for stochastic semilinear PDEs was presented at the  &lt;a href=&#34;https://sites.google.com/view/nonlinear-dynamics/home&#34;&gt;IUTAM Symposium on Nonlinear Dynamics for Design of Mechanical Systems Across Different Length/Time Scales&lt;/a&gt;, held in Tsukuba, Japan.   
    &lt;/div&gt;
@@ -274,25 +391,25 @@ Systems across domains operate with limited information, such as uncertainties a
     
     <item>
       <title>Asymptotic Approximation of the Maximal Lyapunov Exponent of Moore-Greitzer PDE model with Multiplicative Noise close to Stall Bifurcation</title>
-      <link>https://Yiming-Meng.github.io/publication/conference-paper/iutam23/</link>
+      <link>http://localhost:4321/publication/conference-paper/iutam23/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/conference-paper/iutam23/</guid>
+      <guid>http://localhost:4321/publication/conference-paper/iutam23/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robustly Complete Finite-State Abstractions for Control Synthesis of Stochastic Systems</title>
-      <link>https://Yiming-Meng.github.io/publication/journal-article/ojcsys23/</link>
+      <link>http://localhost:4321/publication/journal-article/ojcsys23/</link>
       <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/journal-article/ojcsys23/</guid>
+      <guid>http://localhost:4321/publication/journal-article/ojcsys23/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Journal Papers Pusblished</title>
-      <link>https://Yiming-Meng.github.io/post/20230623/</link>
+      <link>http://localhost:4321/post/20230623/</link>
       <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/post/20230623/</guid>
+      <guid>http://localhost:4321/post/20230623/</guid>
       <description>&lt;p&gt;Two journal papers&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Robustly Complete Finite-State Abstractions for Control Synthesis of Stochastic Systems&lt;/code&gt;&lt;/li&gt;
@@ -304,17 +421,17 @@ Systems across domains operate with limited information, such as uncertainties a
     
     <item>
       <title>Hopf Bifurcations of Moore-Greitzer PDE Model with Additive Noise</title>
-      <link>https://Yiming-Meng.github.io/publication/journal-article/jnls23/</link>
+      <link>http://localhost:4321/publication/journal-article/jnls23/</link>
       <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/journal-article/jnls23/</guid>
+      <guid>http://localhost:4321/publication/journal-article/jnls23/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Work Presented on Stochastic Abstractions</title>
-      <link>https://Yiming-Meng.github.io/post/20230503/</link>
+      <link>http://localhost:4321/post/20230503/</link>
       <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/post/20230503/</guid>
+      <guid>http://localhost:4321/post/20230503/</guid>
       <description>&lt;div style=&#34;text-align: justify;&#34;&gt;
   Our work on robustly complete stochastic abstractions was presented at the   &lt;a href=&#34;https://ece.uwaterloo.ca/~cnielsen/MSCT/2023/&#34;&gt;9th Meeting on System and Control Theory&lt;/a&gt;, held in Waterloo, Ontario, Canada.
    &lt;/div&gt;
@@ -323,17 +440,17 @@ Systems across domains operate with limited information, such as uncertainties a
     
     <item>
       <title>Lyapunov-Barrier Characterization of Robust Reach-Avoid-Stay Specifications for Hybrid Systems</title>
-      <link>https://Yiming-Meng.github.io/publication/journal-article/nahs23/</link>
+      <link>http://localhost:4321/publication/journal-article/nahs23/</link>
       <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/journal-article/nahs23/</guid>
+      <guid>http://localhost:4321/publication/journal-article/nahs23/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data-Driven Learning of Safety-Critical Control with Stochastic Control Barrier Functions</title>
-      <link>https://Yiming-Meng.github.io/publication/conference-paper/cdc22/</link>
+      <link>http://localhost:4321/publication/conference-paper/cdc22/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/conference-paper/cdc22/</guid>
+      <guid>http://localhost:4321/publication/conference-paper/cdc22/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Equal Contribution
@@ -344,41 +461,41 @@ Systems across domains operate with limited information, such as uncertainties a
     
     <item>
       <title>Bifurcation and Robust Control of Instabilities in the Presence of Uncertainties</title>
-      <link>https://Yiming-Meng.github.io/publication/thesis/</link>
+      <link>http://localhost:4321/publication/thesis/</link>
       <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/thesis/</guid>
+      <guid>http://localhost:4321/publication/thesis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robustly Complete Finite-State Abstractions for Verification of Stochastic Systems</title>
-      <link>https://Yiming-Meng.github.io/publication/conference-paper/formats22/</link>
+      <link>http://localhost:4321/publication/conference-paper/formats22/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/conference-paper/formats22/</guid>
+      <guid>http://localhost:4321/publication/conference-paper/formats22/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sufficient Conditions for Robust Probabilistic Reach-Avoid-Stay Specifications using Stochastic Lyapunov-Barrier Functions</title>
-      <link>https://Yiming-Meng.github.io/publication/conference-paper/acc22/</link>
+      <link>http://localhost:4321/publication/conference-paper/acc22/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/conference-paper/acc22/</guid>
+      <guid>http://localhost:4321/publication/conference-paper/acc22/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Smooth Converse Lyapunov-Barrier Theorems for Asymptotic Stability wit Safety Constraints and Reach-Avoid-Stay Specifications</title>
-      <link>https://Yiming-Meng.github.io/publication/journal-article/automatica22/</link>
+      <link>http://localhost:4321/publication/journal-article/automatica22/</link>
       <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/journal-article/automatica22/</guid>
+      <guid>http://localhost:4321/publication/journal-article/automatica22/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Formal Methods</title>
-      <link>https://Yiming-Meng.github.io/project/formal_methods/</link>
+      <link>http://localhost:4321/project/formal_methods/</link>
       <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/project/formal_methods/</guid>
+      <guid>http://localhost:4321/project/formal_methods/</guid>
       <description>&lt;h2 id=&#34;abstraction-based-formal-methods-for-stochastic-dynamical-systems&#34;&gt;Abstraction-Based Formal Methods for Stochastic Dynamical Systems&lt;/h2&gt;
 &lt;div style=&#34;text-align: justify;&#34;&gt;
    Abstraction-based formal synthesis relies on obtaining a finite-state abstraction (or symbolic model) of the original and possibly nonlinear systems. Computational methods, such as graph-based model checking and automaton-guided controller synthesis, are then developed based on the abstraction to verify the system or synthesize controllers with respect to a temporal logic specification. Abstractions enable autonomous decision-making of physical systems to achieve more complex tasks and have received significant success in the past decade. Regardless of heavy state-space discretization and complicated abstraction analysis, formal methods compute with guarantees a set of initial states from which a controller exists to realize the given specification. So far, abstraction-based formal verification and control synthesis for deterministic systems has gained its maturity. Sound and approximately complete finite (not just finite-state) abstractions can be achieved.
@@ -392,9 +509,9 @@ However, to determine the &#34;size&#34; of the abstractions for stochastic syst
     
     <item>
       <title>Nonlinear System Analysis</title>
-      <link>https://Yiming-Meng.github.io/project/example/</link>
+      <link>http://localhost:4321/project/example/</link>
       <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/project/example/</guid>
+      <guid>http://localhost:4321/project/example/</guid>
       <description>&lt;h2 id=&#34;smooth-lyapunov-barrier-theorems-for-reach-avoid-stay-control&#34;&gt;Smooth Lyapunov-Barrier Theorems for Reach-Avoid-Stay Control&lt;/h2&gt;
 &lt;div style=&#34;text-align: justify;&#34;&gt;
    Stability, reachability, and safety are crucial properties of dynamical systems. While verification and control synthesis of reach–avoid–stay objectives can be effectively handled by abstraction-based formal methods, such approaches can be computationally expensive. In contrast, Lyapunov-barrier methods qualitatively characterize stability and safety properties without any state–space discretization.
@@ -424,9 +541,9 @@ Through the analysis, we have found that this coupling slightly impacts both the
     
     <item>
       <title>Safety-Critical Control of Stochastic Systems using Stochastic Control Barrier Functions</title>
-      <link>https://Yiming-Meng.github.io/publication/conference-paper/cdc21/</link>
+      <link>http://localhost:4321/publication/conference-paper/cdc21/</link>
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/conference-paper/cdc21/</guid>
+      <guid>http://localhost:4321/publication/conference-paper/cdc21/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Equal Contribution
@@ -437,25 +554,25 @@ Through the analysis, we have found that this coupling slightly impacts both the
     
     <item>
       <title>Control of Nonlinear Systems with Reach-Avoid-Stay Specifications: A Lyapunov-Barrier Approach with an Application to the Moore-Greizer Model</title>
-      <link>https://Yiming-Meng.github.io/publication/conference-paper/acc21/</link>
+      <link>http://localhost:4321/publication/conference-paper/acc21/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/conference-paper/acc21/</guid>
+      <guid>http://localhost:4321/publication/conference-paper/acc21/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Control Barrier Functions with High Relative Degree for Safety-Critical Control</title>
-      <link>https://Yiming-Meng.github.io/publication/conference-paper/ecc21/</link>
+      <link>http://localhost:4321/publication/conference-paper/ecc21/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/publication/conference-paper/ecc21/</guid>
+      <guid>http://localhost:4321/publication/conference-paper/ecc21/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>https://Yiming-Meng.github.io/slides/example/</link>
+      <link>http://localhost:4321/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/slides/example/</guid>
+      <guid>http://localhost:4321/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-hugo-blox-builder&#34;&gt;Create slides in Markdown with Hugo Blox Builder&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://hugoblox.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; | &lt;a href=&#34;https://docs.hugoblox.com/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -577,10 +694,18 @@ $$&lt;/p&gt;
     </item>
     
     <item>
+      <title>An agent-based model for energy investment decisions in the residential sector</title>
+      <link>http://localhost:4321/publication/journal-article/energy19/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publication/journal-article/energy19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title></title>
-      <link>https://Yiming-Meng.github.io/service/</link>
+      <link>http://localhost:4321/service/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>https://Yiming-Meng.github.io/service/</guid>
+      <guid>http://localhost:4321/service/</guid>
       <description>&lt;h1 id=&#34;teaching&#34;&gt;Teaching&lt;/h1&gt;
 &lt;h2 id=&#34;university-lecturing-and-curriculum-development-duties&#34;&gt;University lecturing and curriculum development duties:&lt;/h2&gt;
 &lt;h3 id=&#34;instructor&#34;&gt;Instructor:&lt;/h3&gt;
@@ -615,15 +740,20 @@ $$&lt;/p&gt;
 &lt;li&gt;&lt;code&gt;IEEE Conference on Decision and Control (CDC)&lt;/code&gt;,  2020-2024&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;American Control Conference (ACC)&lt;/code&gt;,  2020-2024&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Robotics: Science and Systems (RSS)&lt;/code&gt;,  2024&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;IEEE International Conference on Intelligent Transportation Systems (ITSC)&lt;/code&gt;,  2024&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Transportation Research Board (TRB) Annual Meeting&lt;/code&gt;,  2025&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Annual Learning for Dynamics &amp;amp; Control Conference (L4DC)&lt;/code&gt;,  2025&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;committee&#34;&gt;Committee:&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;Technical committee member on &lt;code&gt;Robust and Complex Systems, IEEE Control Systems Society&lt;/code&gt;,  2024-present&lt;/li&gt;
 &lt;li&gt;Artifact Evaluation Committee of &lt;code&gt;Formal Modeling and Analysis of Timed Systems International Conference (FORMATS)&lt;/code&gt;,  2023&lt;/li&gt;
 &lt;li&gt;Repeatability Evaluation Program Committee of the 8th &lt;code&gt;IFAC Conference on Analysis and Design of Hybrid Systems (ADHS)&lt;/code&gt;,  2024&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;workshop-and-session-organization&#34;&gt;Workshop and Session Organization:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Invited session &lt;code&gt;AI-Enhanced Safety-Certifiable Autonomous Vehicles&lt;/code&gt; at the 27th &lt;code&gt;IEEE Intelligent Transportation Systems Conference (ITSC)&lt;/code&gt;,  2024&lt;/li&gt;
+&lt;li&gt;Organizer of the tutorial session &lt;code&gt;Koopman-Based Data-Driven Analysis for Nonlinear System Identification, Stability Prediction, and Control&lt;/code&gt; at the &lt;code&gt;7th Annual Learning for Dynamics &amp;amp; Control Conference (L4DC)&lt;/code&gt;,  2025&lt;/li&gt;
+&lt;li&gt;Chair of the invited session &lt;code&gt;AI-Enhanced Safety-Certifiable Autonomous Vehicles&lt;/code&gt; at the 27th &lt;code&gt;IEEE Intelligent Transportation Systems Conference (ITSC)&lt;/code&gt;,  2024&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;other-committees-and-panels&#34;&gt;Other Committees and panels:&lt;/h2&gt;
 &lt;ul&gt;
@@ -634,9 +764,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Terms</title>
-      <link>https://Yiming-Meng.github.io/termss/</link>
+      <link>http://localhost:4321/termss/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>https://Yiming-Meng.github.io/termss/</guid>
+      <guid>http://localhost:4321/termss/</guid>
       <description>&lt;p&gt;Add your terms here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
 </description>
     </item>

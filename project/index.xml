@@ -2,38 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research | Yiming Meng</title>
-    <link>https://Yiming-Meng.github.io/project/</link>
-      <atom:link href="https://Yiming-Meng.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4321/project/</link>
+      <atom:link href="http://localhost:4321/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Research</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://Yiming-Meng.github.io/media/icon_hued5b44fe80b908030093a7e09ec67911_44353_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:4321/media/icon_hued5b44fe80b908030093a7e09ec67911_44353_512x512_fill_lanczos_center_3.png</url>
       <title>Research</title>
-      <link>https://Yiming-Meng.github.io/project/</link>
+      <link>http://localhost:4321/project/</link>
     </image>
     
     <item>
       <title>Learning and Control for Dynamical Systems</title>
-      <link>https://Yiming-Meng.github.io/project/data_driven/</link>
+      <link>http://localhost:4321/project/data_driven/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/project/data_driven/</guid>
+      <guid>http://localhost:4321/project/data_driven/</guid>
       <description>&lt;h2 id=&#34;data-driven-system-identification&#34;&gt;Data-Driven System Identification&lt;/h2&gt;
 &lt;div style=&#34;text-align: justify;&#34;&gt;
-  Estimating the region of attraction (ROA) of an asymptotically stable attractor is crucial in the analysis of nonlinear systems. We propose a lifting approach to map observable data into an infinite-dimensional function space, which generates a flow governed by the proposed Koopman-based operators. This approach enables us to approximate the system transition and indirectly estimate the solution (value function) to Zubov’s Equation.  The approximator&#39;s non-trivial sub-level sets, with values ranging from (0, 1], form the exact ROA. This approximation is achieved by learning the operator over a fixed time interval. We demonstrate that a transformation of such an approximator can be readily utilized as a near-maximal Lyapunov function. We show that this approach reduces the amount of data and can yield desirable estimation results.
+We propose a &lt;span style=&#34;color: #806FD6; font-style: italic; font-weight: bold;&#34;&gt;Koopman generator learning&lt;/span&gt; approach, the Resolvent-type method, which can potentially ease the requirements for high sampling frequency and reduce bias in the choice of dictionary test functions. The method has been successfully applied to multiple applications, such as &lt;span style=&#34;color: #806FD6; font-style: italic; font-weight: bold;&#34;&gt;system identification&lt;/span&gt;, &lt;span style=&#34;color: #806FD6; font-style: italic; font-weight: bold;&#34;&gt;optimal control&lt;/span&gt;, and &lt;span style=&#34;color: #806FD6; font-style: italic; font-weight: bold;&#34;&gt;learning Lyapunov certificates&lt;/span&gt; for &lt;span style=&#34;color: #CC3174; font-style: italic; font-weight: bold;&#34;&gt;unknown systems&lt;/span&gt;.
+ &lt;/div&gt;
+&lt;div style=&#34;height: 10px;&#34;&gt;&lt;/div&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+   We have also proposed an alternative Koopman-like operator method, namely the &lt;span style=&#34;color: #806FD6; font-style: italic; font-weight: bold;&#34;&gt;Zubov-Koopman operator&lt;/span&gt;, for predicting the stability of unknown systems. This approach enables us to approximate the system transition and indirectly estimate the solution (value function) to Zubov’s Equation.  The approximator&#39;s non-trivial sub-level sets, with values ranging from (0, 1], form the exact region of attraction (ROA). This approximation is achieved by learning the operator over a fixed time interval. We demonstrate that a transformation of such an approximator can be readily utilized as a near-maximal Lyapunov function. We show that this approach reduces the amount of data and can yield desirable estimation results.
+&lt;figure style=&#34;text-align: center;&#34;&gt;
+&lt;img src=&#34;ROA.png&#34; alt=&#34;Description of the image&#34; style=&#34;width: 50%; height: auto;&#34;&gt;
+&lt;figcaption&gt;Caption: Prediction of the Region of Attraction (ROA) using the Zubov-Koopman operator (ZK) and Sum-of-Squares (SOS) for a two-machine power system.&lt;/figcaption&gt;
+&lt;/figure&gt;
    &lt;/div&gt;
 &lt;div style=&#34;height: 10px;&#34;&gt;&lt;/div&gt;
+&lt;p&gt;To improve, further efforts listed below are needed.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data efficiency analysis&lt;/li&gt;
+&lt;li&gt;Dimension reduction&lt;/li&gt;
+&lt;li&gt;Online learning adaptation&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;online-learning-and-control-synthesis-for-reachable-paths-of-unknown-nonlinear-systems&#34;&gt;Online Learning and Control Synthesis for Reachable Paths of Unknown Nonlinear Systems&lt;/h2&gt;
 &lt;div style=&#34;text-align: justify;&#34;&gt;
-Systems across domains operate with limited information, such as uncertainties arising from an insufficient understanding of system transitions and external forces.  In this research, we focus on situations where the nonlinear system is partially unknown, with our knowledge limited to its local dynamics at a single point and constraints on the rate of change of these dynamics. Based on this limited information, we aim to implement the following pipeline for the system: First, we identify a set of states, known as the Guaranteed Reachable Set (GRS), that the unknown system can provably reach within a given timeframe from the point of known information, using underapproximation proxy dynamics. Then, we specify a  state on the boundary of the GRS and synthesize a controller, enabling the partially unknown  system to approach the vicinity of this state. 
+Systems across domains operate with limited information, such as uncertainties arising from an insufficient understanding of system transitions and external forces.  In this research, we focus on situations where the nonlinear system is partially unknown, with our knowledge limited to its local dynamics at a single point and constraints on the rate of change of these dynamics. Based on this limited information, we aim to implement the following pipeline for the system: First, we identify a set of states, known as the Guaranteed Reachable Set (GRS), that the unknown system can provably reach within a given timeframe from the point of known information, using underapproximation proxy dynamics. Then, we specify a  state on the boundary of the GRS and synthesize a controller, enabling the partially unknown  system to approach the vicinity of this state.  &lt;/div&gt;
+&lt;div style=&#34;height: 10px;&#34;&gt;&lt;/div&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+Below is a video demonstrating autonomous waypoint navigation  appied onto an autonomous vehicle using the proposed method. We show that the car can avoid unsafe regions while safely following a narrow path to its final destination. (Video credit to &lt;a href=&#34;https://tahashafa.com/&#34;&gt;Taha Shafa&lt;/a&gt;.)
+&lt;video width=&#34;320&#34; height=&#34;240&#34; controls&gt;
+      &lt;source src=&#34;RPC1.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      Your browser does not support the video tag.
+   &lt;/video&gt;Caption: State plot of reachable predictive control for autonomous vehicles operating with unknown dynamics. Left: zoomed-in, right: normal scale. (Video credit to &lt;a href=&#34;https://tahashafa.com/&#34;&gt;Taha Shafa&lt;/a&gt;.) 
+   &lt;video width=&#34;320&#34; height=&#34;240&#34; controls&gt;
+      &lt;source src=&#34;RPC_GRS.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      Your browser does not support the video tag.
+   &lt;/video&gt;Caption: Reachable predictive control for autonomous vehicles operating with unknown dynamics.  (Video credit to &lt;a href=&#34;https://tahashafa.com/&#34;&gt;Taha Shafa&lt;/a&gt;.)
    &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Physics-Informed Neural Optimality</title>
-      <link>https://Yiming-Meng.github.io/project/pinn/</link>
+      <link>http://localhost:4321/project/pinn/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/project/pinn/</guid>
+      <guid>http://localhost:4321/project/pinn/</guid>
       <description>&lt;div style=&#34;text-align: justify;&#34;&gt;
    In continuous environments, optimality-related quantities for finite-dimensional dynamical systems usually exist in the lifted function/functional spaces, which are solutions to optimality-induced partial differential equations (PDEs). We develop analysis and computation tools in this regard.
    &lt;/div&gt;
@@ -42,9 +67,9 @@ Systems across domains operate with limited information, such as uncertainties a
     
     <item>
       <title>Formal Methods</title>
-      <link>https://Yiming-Meng.github.io/project/formal_methods/</link>
+      <link>http://localhost:4321/project/formal_methods/</link>
       <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/project/formal_methods/</guid>
+      <guid>http://localhost:4321/project/formal_methods/</guid>
       <description>&lt;h2 id=&#34;abstraction-based-formal-methods-for-stochastic-dynamical-systems&#34;&gt;Abstraction-Based Formal Methods for Stochastic Dynamical Systems&lt;/h2&gt;
 &lt;div style=&#34;text-align: justify;&#34;&gt;
    Abstraction-based formal synthesis relies on obtaining a finite-state abstraction (or symbolic model) of the original and possibly nonlinear systems. Computational methods, such as graph-based model checking and automaton-guided controller synthesis, are then developed based on the abstraction to verify the system or synthesize controllers with respect to a temporal logic specification. Abstractions enable autonomous decision-making of physical systems to achieve more complex tasks and have received significant success in the past decade. Regardless of heavy state-space discretization and complicated abstraction analysis, formal methods compute with guarantees a set of initial states from which a controller exists to realize the given specification. So far, abstraction-based formal verification and control synthesis for deterministic systems has gained its maturity. Sound and approximately complete finite (not just finite-state) abstractions can be achieved.
@@ -58,9 +83,9 @@ However, to determine the &#34;size&#34; of the abstractions for stochastic syst
     
     <item>
       <title>Nonlinear System Analysis</title>
-      <link>https://Yiming-Meng.github.io/project/example/</link>
+      <link>http://localhost:4321/project/example/</link>
       <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://Yiming-Meng.github.io/project/example/</guid>
+      <guid>http://localhost:4321/project/example/</guid>
       <description>&lt;h2 id=&#34;smooth-lyapunov-barrier-theorems-for-reach-avoid-stay-control&#34;&gt;Smooth Lyapunov-Barrier Theorems for Reach-Avoid-Stay Control&lt;/h2&gt;
 &lt;div style=&#34;text-align: justify;&#34;&gt;
    Stability, reachability, and safety are crucial properties of dynamical systems. While verification and control synthesis of reach–avoid–stay objectives can be effectively handled by abstraction-based formal methods, such approaches can be computationally expensive. In contrast, Lyapunov-barrier methods qualitatively characterize stability and safety properties without any state–space discretization.
