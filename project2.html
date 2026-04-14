@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link rel="icon" href="./images/myicon.ico">
+<!--- <title></title> --->
+<title>Yiming Meng's Homepage</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<div id="main-container">
+<div id="header-container">
+<div id="header">
+<div id="header-icon-text-container">
+<!--<div id="header-icon-container" > -->
+<!--<a href="index.html"><img src="./images/profile2.png" alt="" style="width: 100%; height: 100%; position: center; padding:0px; margin: 0px;"></a>
+</div>
+-->
+<!--
+<div id="header-text-container">
+<a href="index.html">Yiming Meng's Homepage</a>
+</div>
+-->
+</div>
+<div id="main">
+<button class="openbtn" onclick="openNav()">☰</button>
+</div>
+</div>
+</div>
+<div id="layout-content"> <!-- nomenu  -->
+<h2>Operator Learning and Control for Unknown Dynamical Systems</h2>
+<p>We proposed a Koopman generator learning approach, the resolvent-type method (IEEE TAC, 2026), which alleviates the need for high sampling frequencies and reduces bias in the choice of dictionary test functions compared to SINDy/Weak SINDy, Koopman-logarithm methods, and finite-difference approaches. The method has been successfully applied to a range of tasks, including system identification, optimal control, and learning Lyapunov certificates for unknown systems.<br /></p>
+<p>
+<div class="pic-container">
+<div class="pic-box">
+<img src="Proj/Koopman.jpg" style="width: 350px;">
+</div>
+</div>
+</p>
+<div class="infoblock">
+<div class="blockcontent">
+<p>To further improve the approach or develop new Koopman-based methods, several key challenges remain:</p>
+<ol>
+<li><p>How can data efficiency in both temporal sampling and state-space coverage be characterized for Koopman generator learning? One possible direction is to draw inspiration from classical PDE solvers (e.g., finite element and spectral Galerkin methods), but in a reverse manner, using these techniques to inform the data efficiency analysis.</p>
+</li>
+<li><p>How can symbolic regression improve scalability and learning accuracy, and assist in the selection of basis functions? Can it also be used to uncover underlying structures in physical systems? Of particular interest is its potential to learn and discover geometric properties of chaotic systems.</p>
+</li>
+<li><p>How can dimensionality reduction be performed using manifold learning techniques, and what are the sufficient and necessary conditions for its effectiveness?</p>
+</li>
+<li><p>System identification for hybrid systems, particularly switching systems: how can convergence be improved toward more general (weak) notions that accommodate discontinuities and nonsmooth dynamics?</p>
+</li>
+<li><p>For control-affine systems, existing Koopman approaches prioritize the expressive richness of the observable space in terms of linear span, but do not ensure closure under the infinitesimal generator. This is particularly problematic, as the dynamics inherently generate new directions through Lie brackets. How can we ensure exact identifiability and robust approximation by systematically incorporating Lie bracket expansions into the choice of observables, so that the resulting function space is closed, or approximately closed, under the Koopman generator while remaining computationally tractable?</p>
+</li>
+</ol>
+<p>Other related questions not explicitly highlighted here are also open for further discussion.</p>
+</div></div>
+<div class="infoblock">
+<div class="blocktitle"><b>Featured Publications</b></div>
+<div class="blockcontent">
+<ul>
+<li><p><b>Resolvent-Type Data-Driven Learning of Generators for Unknown Continuous-Time Dynamical Systems</b>.  <br />
+<i>Y. Meng\(^\star\), R. Zhou\(^\star\), M. Ornik, J. Liu</i>.   <br />
+IEEE Transactions on Automatic Control, 2026.   (<a href="https://ieeexplore.ieee.org/document/11353939/" target=&ldquo;blank&rdquo;>DOI</a>)</p>
+</li>
+<li><p><b>Learning Regions of Attraction in Unknown Dynamical Systems via Zubov-
+Koopman Lifting: Regularities and Convergence</b>.  <br />
+<i>Y. Meng, R. Zhou, J. Liu</i>. <br />
+IEEE Transactions on Automatic Control, 2025.   (<a href="https://ieeexplore.ieee.org/document/10964583/" target=&ldquo;blank&rdquo;>DOI</a>)</p>
+</li>
+<li><p><b>Learning Koopman-based Stability Certificates for Unknown
+Nonlinear Systems</b>.  <br />
+<i>R. Zhou, Y. Meng, Z. Zeng, J. Liu</i>. <br />
+IEEE Conference on Decision and Control (CDC). @ Rio de Janeiro, Brazil, 2025.  (<a href="https://ieeexplore.ieee.org/abstract/document/11312515" target=&ldquo;blank&rdquo;>DOI</a>)</p>
+</li>
+<li><p><b>Data-driven Optimal Control of Unknown Nonlinear Dynamical
+Systems Based on the Koopman Operator</b>.  <br />
+<i>Z. Zeng, R. Zhou, Y. Meng, J. Liu</i>.  <br />
+Annual Learning for Dynamics &amp; Control
+Conference (L4DC). @ Ann Arbor, MI, USA, 2025.  (<a href="https://proceedings.mlr.press/v283/zeng25a.html" target=&ldquo;blank&rdquo;>DOI</a>)</p>
+</li>
+<li><p><b>Koopman-Based Data-Driven Techniques for Adaptive
+Cruise Control System Identification</b>.  <br />
+<i>Y. Meng, H. Li, M. Ornik, X (Shaw). Li</i>.  <br />
+IEEE International Conference on Intelligent
+Transportation Systems (ITSC). @ Edmonton, AB, Canada, 2024.  (<a href="https://ieeexplore.ieee.org/document/10920220" target=&ldquo;blank&rdquo;>DOI</a>)</p>
+</li>
+</ul>
+</div></div>
+</div> <!-- <div id="layout-content"> -->
+<div id="footer-container">
+<div id="footer">
+<div id="footer-text">
+Last edited  on April 14<sup>th</sup> 2026  11:12AM (Time Zone: EDT). </br>
+<!-- Powered by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc + MathJax</a>.-->
+</div> <!-- <div id="footer-text"> -->
+</div> <!-- <div id="footer"> -->
+</div> <!-- <div id="footer-container"> -->
+<div> <!-- nomenulastbit to counteract  <div id="layout">  -->
+</div> <!--- <div id="layout"> --->
+</div> <!--- <div id="main-container"> --->
+<script>
+function openNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "280px";
+        document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+    }
+}
+function closeNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setInterval(
+            function(){ location.reload() },
+            500
+        );
+    }
+}
+</script>
+</body>
+</html>

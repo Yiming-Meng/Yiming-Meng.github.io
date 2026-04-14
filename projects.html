@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link rel="icon" href="./images/myicon.ico">
+<!--- <title>Research</title> --->
+<title>Yiming Meng's Homepage</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<div id="main-container">
+<div id="header-container">
+<div id="header">
+<div id="header-icon-text-container">
+<!--<div id="header-icon-container" > -->
+<!--<a href="index.html"><img src="./images/profile2.png" alt="" style="width: 100%; height: 100%; position: center; padding:0px; margin: 0px;"></a>
+</div>
+-->
+<!--
+<div id="header-text-container">
+<a href="index.html">Yiming Meng's Homepage</a>
+</div>
+-->
+</div>
+<div id="main">
+<button class="openbtn" onclick="openNav()">☰</button>
+</div>
+</div>
+</div>
+<div id="layout">
+<div id="layout-menu-container">
+<div id="layout-menu">
+  <div class="menu-item">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  </div>
+  <div id="profile-block">
+    <div class="profile-section-title">Contact</div>
+    <div class="profile-line">Address:</div>
+    <div class="profile-line">(Office TBD)</div>
+    <div class="profile-line">No.1 Du Xue Rd</div>
+    <div class="profile-line">Nansha, Guangzhou</div>
+    <div class="profile-line">&nbsp;</div>
+    <div class="profile-line">Email:</div>
+    <div class="profile-line">&nbsp;yimingmeng</div>
+    <div class="profile-line">@hkust-gz.edu.cn</div>
+    <div class="profile-line">&nbsp;</div>
+    <div class="profile-line">Links:</div>
+    <div id="profile-links">
+      <a href="mailto:your@email.com"
+         title="Email"
+         target="_blank" rel="noopener noreferrer">
+        <i class="fa fa-envelope"></i>
+      </a>
+      <a href="https://scholar.google.com/citations?hl=en&user=bym7rFQAAAAJ&view_op=list_works&sortby=pubdate"
+         title="Google Scholar"
+         target="_blank" rel="noopener noreferrer">
+        <i class="fa fa-graduation-cap"></i>
+      </a>
+      <a href="https://github.com/Yiming-Meng"
+         title="GitHub"
+         target="_blank" rel="noopener noreferrer">
+        <i class="fa fa-github"></i>
+      </a>
+      <a href="https://orcid.org/0000-0002-2923-7154"
+           title="ORCID" target="_blank" class="orcid-link">
+        <span class="orcid-icon">iD</span>
+      </a>
+      <a href="https://www.linkedin.com/in/yiming-meng-188794265/"
+           title="LinkedIn" target="_blank">
+        <i class="fa fa-linkedin-square"></i>
+      </a>
+    </div>
+  </div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="projects.html" class="current">Research</a></div>
+<div class="menu-item"><a href="example.html">Publication</a></div>
+<div class="menu-item"><a href="using.html">News</a></div>
+<div class="menu-item"><a href="post1.html">Teaching</a></div>
+<div class="menu-item"><a href="post2.html">Service</a></div>
+<div class="menu-item"><a href="group.html">Positions&nbsp;Available</a></div>
+</div> <!-- <div id="layout-menu"> -->
+</div> <!-- <div id="layout-menu-container"> -->
+<div id="layout-content-container">
+<div id="layout-content">
+<div id="toptitle">
+<h1>Research</h1>
+</div>
+<div class="infoblock">
+<div class="blocktitle"><b>Overview</b></div>
+<div class="blockcontent">
+<p>In the current wave of artificial intelligence, there remains a fundamental gap between powerful empirical performance and principled understanding. This gap is particularly visible when viewed through the historical lens of control theory, whose early development was deeply intertwined with cybernetics, where <b>feedback</b> was recognized as a fundamental principle of intelligent behavior and became central to the mathematical foundations of intelligent systems.</p>
+<p>Today’s data-driven approaches have significantly expanded the scope of system identification (akin to learning world models) and decision-making (e.g., end-to-end policy learning via regression) under uncertainty. However, they often sacrifice interpretability, robustness, and guarantees—properties that are essential in safety-critical environments. This tension is not new. Historically, engineering disciplines have often evolved along two complementary directions: one emphasizing principled, structured design, and the other favoring empirical performance and scalability. </p>
+<p>My research is motivated by the need to bridge this divide: to develop <b>interpretable and provable AI for control theory</b>, while still embracing the strengths of experimental paradigms such as reinforcement learning and embodied intelligence. Rather than focusing on purely end-to-end solutions, I aim to address control problems in physical, uncertain dynamical systems where <b>structure, safety, and reliability</b> are indispensable, providing a principled foundation for AI-driven decision-making.</p>
+</div></div>
+<h2>Theoretical Interests</h2>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/P1.png" alt="" width="280px" /></div>
+<div id="text-container"><h2>Physics-Informed Construction for Qualitative Autonomy</h2>
+<p>We investigate  systematic AI-enhanced construction of realtime feedback controllers with formal guarantees for safety, stability, and reachability in nonlinear systems, including their combinations. (<a href="project1.html" target=&ldquo;blank&rdquo;>statement</a>)</p>
+</div></div>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/P2.png" alt="" width="280px" /></div>
+<div id="text-container"><h2>Operator Learning and Control for Unknown Dynamical Systems</h2>
+<p>We develop Koopman operator learning methods for unknown nonlinear systems, particularly for continuous-time and switching dynamics. (<a href="project2.html" target=&ldquo;blank&rdquo;>statement</a>)</p>
+</div></div>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/P3.png" alt="" width="280px" /></div>
+<div id="text-container"><h2>Smart Formal Symbolic Abstractions for Stochastic Systems</h2>
+<p>Even though formal methods (or scientific computing for control theory) face severe dimensionality challenges, they remain essential for computing the winning set (ground truth) with quantifiable error. They are also necessary for a holistic view of control synthesis and verification. (<a href="project3.html" target=&ldquo;blank&rdquo;>statement</a>)</p>
+</div></div>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/ai.jpeg" alt="" width="280px" /></div>
+<div id="text-container"><h2>Miscellaneous</h2>
+<ul>
+<li><p>Scientific machine learning for solving PDEs in physical sciences</p>
+</li>
+<li><p>RL theoretical foundation for control and robotics</p>
+</li>
+<li><p>Statistical Inference and Prediction for Stochastic Processes</p>
+</li>
+<li><p>Quantum computing for control theory</p>
+</li>
+<li><p>Multi-agent planning, dimension reduction, and optimal control for stochastic systems</p>
+</li>
+</ul>
+</div></div>
+<h2>Application Projects</h2>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/P0.png" alt="" width="280px" /></div>
+<div id="text-container"><h2>Reachability with Safety in Response to Unencountered Events</h2>
+<p>We consider the following pipeline for systems undergoing adversarial or unencountered events, such as mid-mission catastrophes</p>
+<ul>
+<li><p>Statistical anomaly detection, inference and prediction </p>
+</li>
+<li><p>Identification of the Guaranteed Reachable Set (GRS) for unknown systems that can provably be reached within a given timeframe</p>
+</li>
+<li><p>Control synthesis for an unknown system to reach a neighborhood of a specified boundary point of the GRS</p>
+</li>
+</ul>
+<p>(<a href="project4.html" target=&ldquo;blank&rdquo;>Learn more</a>)</p>
+</div></div>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/P6.png" alt="" width="280px" /></div>
+<div id="text-container"><h2>Humanoid Learning and Planning within Unencountered Environments</h2>
+<ul>
+<li><p>Whole-body control; auto-collisions;
+uncertain contacts </p>
+</li>
+<li><p>System transition-aware learning and planning</p>
+</li>
+<li><p>Cyber-physical systems; stability;
+optimal control</p>
+</li>
+</ul>
+</div></div>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/P7.png" alt="" width="280px" /></div>
+<div id="text-container"><h2>Cooperation and Competition of Vehicle Swarms in Hostile Environments</h2>
+<ul>
+<li><p>Planning for
+large-population systems; distributed safety control; scalable management</p>
+</li>
+<li><p>Vehicle swarms; uncertain
+interactions; mission adaptability</p>
+</li>
+<li><p>Mean-field routing</p>
+</li>
+<li><p>Software platform</p>
+</li>
+</ul>
+</div></div>
+</div> <!-- <div id="layout-content"> -->
+<div id="footer-container">
+<div id="footer">
+<div id="footer-text">
+Last edited  on April 14<sup>th</sup> 2026  11:12AM (Time Zone: EDT). </br>
+<!-- Powered by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc + MathJax</a>.-->
+</div> <!-- <div id="footer-text"> -->
+</div> <!-- <div id="footer"> -->
+</div> <!-- <div id="footer-container"> -->
+</div> <!-- <div id="layout-content-container"> -->
+</div> <!--- <div id="layout"> --->
+</div> <!--- <div id="main-container"> --->
+<script>
+function openNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "280px";
+        document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+    }
+}
+function closeNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setInterval(
+            function(){ location.reload() },
+            500
+        );
+    }
+}
+</script>
+</body>
+</html>

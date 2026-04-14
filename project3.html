@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link rel="icon" href="./images/myicon.ico">
+<!--- <title></title> --->
+<title>Yiming Meng's Homepage</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<div id="main-container">
+<div id="header-container">
+<div id="header">
+<div id="header-icon-text-container">
+<!--<div id="header-icon-container" > -->
+<!--<a href="index.html"><img src="./images/profile2.png" alt="" style="width: 100%; height: 100%; position: center; padding:0px; margin: 0px;"></a>
+</div>
+-->
+<!--
+<div id="header-text-container">
+<a href="index.html">Yiming Meng's Homepage</a>
+</div>
+-->
+</div>
+<div id="main">
+<button class="openbtn" onclick="openNav()">☰</button>
+</div>
+</div>
+</div>
+<div id="layout-content"> <!-- nomenu  -->
+<h2>Smart Formal Symbolic Abstractions for Stochastic Systems</h2>
+<p>Abstraction-based formal synthesis relies on obtaining a finite-state abstraction (or symbolic model) of the original and possibly nonlinear systems. Computational methods, such as graph-based model checking and automaton-guided controller synthesis, are then developed based on the abstraction to verify the system or synthesize controllers with respect to a temporal logic specification. Abstractions enable autonomous decision-making of physical systems to achieve more complex tasks and have received significant success in the past decade. Regardless of heavy state-space discretization and complicated abstraction analysis, formal methods compute with guarantees a set of initial states from which a controller exists to realize the given specification. So far, abstraction-based formal verification and control synthesis for deterministic systems has gained its maturity. Sound and approximately complete finite (not just finite-state) abstractions can be achieved.<br /></p>
+<p>
+<div class="pic-container">
+<div class="pic-box">
+<img src="Proj/Abstraction.png" style="width: 350px;">
+</div>
+</div>
+</p>
+<p>However, to determine the &ldquo;size&rdquo; of the abstractions for stochastic systems, we need to work on the weak* topology of the solution processes (here, we treat the solutions as functionals rather than absolute continuous functions). The obtained abstractions based on the state-space discretization are essentially a family of &ldquo;discrete-version&rdquo; transition kernels of the original systems. However, there are uncountably infinite of them, which is why we name it a &ldquo;finite-state&rdquo; abstraction. To prevent a sound stochastic abstraction from generating significant deviation, we perform a completeness analysis. The purpose is to investigate whether such deviations can be reflected in some continuous-state systems with arbitrarily small perturbations when compared to the original concrete systems. By conducting this type of comparison, we aim to release the abstraction from the &ldquo;virtual&rdquo; systems and establish a perception that even small deviations would not lead to substantial issues for the original system.
+<br /></p>
+<p>
+<div class="pic-container">
+<div class="pic-box">
+<img src="Proj/Abstraction2.png" style="width: 250px;">
+<img src="Proj/Abstraction3.png" style="width: 250px;">
+</div>
+</div>
+</p>
+<div class="infoblock">
+<div class="blocktitle"><b>Key aspects for future development</b></div>
+<div class="blockcontent">
+<ol>
+<li><p>Develop task and system-oriented adaptive discretization techniques
+to enhance computation efficiency. </p>
+</li>
+<li><p>Integrate reinforcement learning algorithms for control synthesis. </p>
+</li>
+<li><p>Structure-aware framework of real-time construction of abstraction </p>
+</li>
+</ol>
+</div></div>
+<div class="infoblock">
+<div class="blocktitle"><b>Featured Publications</b></div>
+<div class="blockcontent">
+<ul>
+<li><p><b>Robustly Complete Finite-State Abstractions for Verification of Stochastic Systems</b>.  <br />
+<i>Y. Meng, J. Liu</i>.  <br />
+Formal Modeling and Analysis of Timed Systems International Conference (FORMATS). @ Warsaw, Poland,  2022.  (<a href="https://link.springer.com/chapter/10.1007/978-3-031-15839-1_5" target=&ldquo;blank&rdquo;>DOI</a>)</p>
+</li>
+<li><p><b>Robustly Complete Finite-State Abstractions for Control Synthesis of Stochastic Systems</b>.  <br />
+<i>Y. Meng, J. Liu</i>.  <br />
+IEEE Open Journal of Control Systems, 2023.  (<a href="https://ieeexplore.ieee.org/document/10179944" target=&ldquo;blank&rdquo;>DOI</a>)</p>
+</li>
+</ul>
+</div></div>
+</div> <!-- <div id="layout-content"> -->
+<div id="footer-container">
+<div id="footer">
+<div id="footer-text">
+Last edited  on April 14<sup>th</sup> 2026  11:12AM (Time Zone: EDT). </br>
+<!-- Powered by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc + MathJax</a>.-->
+</div> <!-- <div id="footer-text"> -->
+</div> <!-- <div id="footer"> -->
+</div> <!-- <div id="footer-container"> -->
+<div> <!-- nomenulastbit to counteract  <div id="layout">  -->
+</div> <!--- <div id="layout"> --->
+</div> <!--- <div id="main-container"> --->
+<script>
+function openNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "280px";
+        document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+    }
+}
+function closeNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setInterval(
+            function(){ location.reload() },
+            500
+        );
+    }
+}
+</script>
+</body>
+</html>

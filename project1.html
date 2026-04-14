@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link rel="icon" href="./images/myicon.ico">
+<!--- <title></title> --->
+<title>Yiming Meng's Homepage</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<div id="main-container">
+<div id="header-container">
+<div id="header">
+<div id="header-icon-text-container">
+<!--<div id="header-icon-container" > -->
+<!--<a href="index.html"><img src="./images/profile2.png" alt="" style="width: 100%; height: 100%; position: center; padding:0px; margin: 0px;"></a>
+</div>
+-->
+<!--
+<div id="header-text-container">
+<a href="index.html">Yiming Meng's Homepage</a>
+</div>
+-->
+</div>
+<div id="main">
+<button class="openbtn" onclick="openNav()">☰</button>
+</div>
+</div>
+</div>
+<div id="layout-content"> <!-- nomenu  -->
+<h2>Physics-Informed Construction for Qualitative Autonomy</h2>
+<p>Safety, stability, reachability, and their combinations are fundamental building blocks for specifying more complex control and verification tasks in nonlinear systems, including those governed by ODEs, SDEs, and hybrid dynamics, as well as systems subject to bounded topological perturbations. These concepts have broad applications in <b>robotics</b>, <b>UAV control</b>,   <b>cyber-physical systems</b>, and other safety-critical physical systems.<br /></p>
+<p>
+<div class="pic-container">
+<div class="pic-box">
+<img src="Proj/navigation.png" style="width: 200px;">
+<img src="Proj/block_pendulum.png" style="width: 200px;">
+<p>(Left) navigate to the yellow set while avoiding touching the walls; (right) stabilize the stochastically perturbed block-and-pendulum system. </p>
+</div>
+</div>
+</p>
+<p>While formal methods (e.g., via discretization and finite abstractions) provide a systematic approach to system verification and control synthesis, they are typically limited to low-dimensional settings due to the exponential growth of computational cost with dimension—the so-called curse of dimensionality. We therefore seek <b>PDE  characterizations</b> (Hamilton–Jacobi-type) of these problems, in which control Lyapunov functions, control barrier functions, and control Lyapunov–barrier functions arise as solutions, together with <b>(not necessarily continuous) feedback laws</b> derived from these   value functions. To enable scalability, we develop mesh-free approximation methods and employ formal verification tools to ensure that the resulting solutions satisfy the required certificate conditions.
+<br /></p>
+<div class="infoblock">
+<div class="blocktitle"><b>Key Research Questions</b></div>
+<div class="blockcontent">
+<ol>
+<li><p>What is the best degree of regularity that can be guaranteed for a control Lyapunov function (CLF) for globally asymptotically controllable systems? This remains an open question, as raised by Prof. Eduardo D. Sontag. In my view, this question can be interpreted from several key perspectives:</p>
+<ol>
+<li><p>Smooth CLFs (or, equivalently, the existence of continuous feedback laws) are often overly idealized for nonlinear systems. In practice, one must embrace nonsmooth analysis and its interplay with viscosity solutions of Hamilton–Jacobi–Bellman (HJB) equations.</p>
+</li>
+<li><p>From the perspective of approximating solutions to HJB equations, what is the appropriate notion of convergence? In particular, the metric should ensure not only convergence of the value function, but also the satisfaction of Lyapunov conditions required for control synthesis.</p>
+</li>
+<li><p>Is a single (possibly nonsmooth) CLF necessary in practice for control synthesis? Not necessarily. While a single CLF provides mathematical elegance and convenience, practical approaches may instead construct piecewise-smooth surrogates and verify their validity using appropriate convergence metrics.</p>
+</li></ol>
+</li>
+<li><p>Continuing with (1b) and (1c), how do we address the trade-off between ensuring high accuracy and achieving scalability? In particular, how can we develop physics-informed machine learning approaches to approximate CLFs, CBFs, and CLBFs? Physics-informed neural networks (PINNs) often makes it difficult to achieve high accuracy. Moreover, neural network parameterizations may still require substantial memory and computational cost in high-dimensional settings. Can symbolic regression be leveraged to overcome these limitations and achieve solutions that are both highly accurate and scalable?</p>
+</li>
+<li><p>How can we address the scalability of formal verification so that the Lyapunov conditions can be certified?</p>
+</li>
+<li><p>Can we obtain an equivalent construction from a hybrid-systems topology perspective, potentially only of theoretical interest, that offers an alternative perspective on the above approach?</p>
+</li>
+</ol>
+<p>Other related questions not explicitly highlighted here are also open for further discussion.</p>
+</div></div>
+<div class="infoblock">
+<div class="blocktitle"><b>Featured Publications</b></div>
+<div class="blockcontent">
+<ul>
+<li><p><b>Physics-Informed Neural Network Lyapunov Functions:
+PDE Characterization, Learning, and Verification</b>.  <br />
+<i>J. Liu, Y. Meng, M. Fitzsimmons, R. Zhou</i>.  <br />
+Automatica, 2025.  (<a href="https://www.sciencedirect.com/science/article/pii/S000510982500086X/" target=&ldquo;blank&rdquo;>DOI</a>)  </p>
+</li>
+<li><p><b>Physics-Informed Extreme Learning Machine Lyapunov
+Functions</b>.  <br />
+<i>R. Zhou, M. Fitzsimmons, Y. Meng, J. Liu</i>.  <br />
+IEEE Control Systems Letters, 2024.  (<a href="https://ieeexplore.ieee.org/document/10560468" target=&ldquo;blank&rdquo;>DOI</a>)</p>
+</li>
+<li><p><b>(TOOL) LyZNet: A Lightweight Python Tool for Learning and Verifying Neural Lyapunov Functions and Regions of Attraction</b>.  <br />
+<i>J. Liu, Y. Meng, M. Fitzsimmons, R. Zhou</i>.  <br />
+ACM International Conference on Hybrid Systems: Computation and Control (HSCC). @ Hongkong SAR China, 2024.  (<a href="https://dl.acm.org/doi/10.1145/3641513.3650134" target=&ldquo;blank&rdquo;>DOI</a>)</p>
+</li>
+<li><p><b>Physics-Informed Neural Network Policy Iteration: Algorithms, Convergence, and Verification</b>.  <br />
+<i>Y. Meng\(^\star\), R. Zhou\(^\star\), A. Mukherjee, M. Fitzsimmons, C. Song, J. Liu</i>.  <br />
+International Conference on Machine Learning (ICML). @ Vienna, Austria, 2024.  (<a href="https://openreview.net/forum?id=sZla6SnooP" target=&ldquo;blank&rdquo;>DOI</a>)</p>
+</li>
+<li><p><b>Stochastic Lyapunov-Barrier Functions for Robust Probabilistic Reach-Avoid-Stay
+Specifications</b>.  <br />
+<i>Y. Meng, J. Liu</i>.   <br />
+IEEE Transactions on Automatic Control, 2024.  (<a href="https://ieeexplore.ieee.org/document/10443446" target=&ldquo;blank&rdquo;>DOI</a>)</p>
+</li>
+<li><p><b>Lyapunov-Barrier Characterization of Robust Reach-Avoid-Stay Specifications for Hybrid Systems</b>.  <br />
+<i>Y. Meng, J. Liu</i>.  <br />
+Nonlinear Analysis: Hybrid Systems, 2023.  (<a href="https://www.sciencedirect.com/science/article/abs/pii/S1751570X23000110?via%3Dihub" target=&ldquo;blank&rdquo;>DOI</a>)</p>
+</li>
+<li><p><b>Smooth Converse Lyapunov-Barrier Theorems for Asymptotic Stability wit Safety Constraints and Reach-Avoid-Stay Specifications</b>.  <br />
+<i>Y. Meng, Y. Li, M. Fitzzsimmons, J. Liu</i>.  <br />
+Automatica, 2022.  (<a href="https://www.sciencedirect.com/science/article/abs/pii/S0005109822003375?via%3Dihub" target=&ldquo;blank&rdquo;>DOI</a>)</p>
+</li>
+</ul>
+</div></div>
+</div> <!-- <div id="layout-content"> -->
+<div id="footer-container">
+<div id="footer">
+<div id="footer-text">
+Last edited  on April 14<sup>th</sup> 2026  11:12AM (Time Zone: EDT). </br>
+<!-- Powered by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc + MathJax</a>.-->
+</div> <!-- <div id="footer-text"> -->
+</div> <!-- <div id="footer"> -->
+</div> <!-- <div id="footer-container"> -->
+<div> <!-- nomenulastbit to counteract  <div id="layout">  -->
+</div> <!--- <div id="layout"> --->
+</div> <!--- <div id="main-container"> --->
+<script>
+function openNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "280px";
+        document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+    }
+}
+function closeNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setInterval(
+            function(){ location.reload() },
+            500
+        );
+    }
+}
+</script>
+</body>
+</html>

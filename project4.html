@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link rel="icon" href="./images/myicon.ico">
+<!--- <title></title> --->
+<title>Yiming Meng's Homepage</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<div id="main-container">
+<div id="header-container">
+<div id="header">
+<div id="header-icon-text-container">
+<!--<div id="header-icon-container" > -->
+<!--<a href="index.html"><img src="./images/profile2.png" alt="" style="width: 100%; height: 100%; position: center; padding:0px; margin: 0px;"></a>
+</div>
+-->
+<!--
+<div id="header-text-container">
+<a href="index.html">Yiming Meng's Homepage</a>
+</div>
+-->
+</div>
+<div id="main">
+<button class="openbtn" onclick="openNav()">☰</button>
+</div>
+</div>
+</div>
+<div id="layout-content"> <!-- nomenu  -->
+<h2>Reachability with Safety in Response to Unencountered Events</h2>
+<p><b>Motivating example: mid-mission catastrophe</b></p>
+<p>
+<div class="pic-container">
+<div class="pic-box">
+<video width="350" controls>
+<source src="Proj/collision.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+</div>
+</p>
+<p>Systems across domains operate with limited information, such as uncertainties arising from an insufficient understanding of system transitions and external forces. In this research, we focus on situations where the nonlinear system is partially unknown, with our knowledge limited to its local dynamics at a single point and constraints on the rate of change of these dynamics. Based on this limited information, we aim to implement the following pipeline (IEEE TAC 2026) for the system: First, we identify a set of states, known as the Guaranteed Reachable Set (GRS), that the unknown system can provably reach within a given timeframe from the point of known information, using underapproximation proxy dynamics. Then, we specify a state on the boundary of the GRS and synthesize a controller, enabling the partially unknown system to approach the vicinity of this state. <br /></p>
+<p>
+<div class="pic-container">
+<div class="pic-box">
+<img src="Proj/RPC.jpeg" style="width: 350px;">
+</div>
+</div>
+</p>
+<p>Below is a video demonstrating autonomous waypoint navigation appied onto an autonomous vehicle using the proposed method. We show that the car can avoid unsafe regions while safely following a narrow path to its final destination.
+<br /></p>
+<p>
+<div class="pic-container">
+<div class="pic-box">
+<video width="650" controls>
+<source src="Proj/RPC1.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+</div>
+</p>
+<div class="infoblock">
+<div class="blocktitle"><b>Key aspects for future development</b></div>
+<div class="blockcontent">
+<ol>
+<li><p>Incorporate prior anomaly detection for hazard prevention, reducing the risk of mid-mission catastrophes</p>
+</li>
+<li><p>Improve the precision of guaranteed
+reachable set (GRS) evaluation.</p>
+</li>
+<li><p>Recycle data from a single run to improve
+data efficiency</p>
+</li>
+<li><p>Tight GRS estimation for underactuated systems (UAV, robotics, etc.)</p>
+</li>
+</ol>
+</div></div>
+<div class="infoblock">
+<div class="blocktitle"><b>Featured Publications</b></div>
+<div class="blockcontent">
+<ul>
+<li><p><b>Online Learning and Control Synthesis for Reachable Paths of
+Unknown Nonlinear Systems</b>.  <br />
+<i>Y. Meng, T. Shafa, J. Wei,  M. Ornik</i>.   <br />
+IEEE Transactions on Automatic Control, 2026.   (<a href="https://ieeexplore.ieee.org/document/11433766" target=&ldquo;blank&rdquo;>DOI</a>)</p>
+</li>
+<li><p><b>Reachable Predictive Control: A Novel Control Algorithm for Nonlinear
+Systems with Unknown Dynamics and its Practical Applications</b>.  <br />
+<i>T. Shafa, Y. Meng, M. Ornik</i>.   <br />
+Accepted to  IEEE International Conference on Robotics &amp; Automation (ICRA). @ Vienna, Austria, 2026.  (<a href="https://arxiv.org/abs/2510.02623" target=&ldquo;blank&rdquo;>arXiv</a>)</p>
+</li>
+<li><p><b>Target Prediction Under Deceptive Switching Strategies via Outlier-
+Robust Filtering of Partially Observed Incomplete Trajectories</b>.  <br />
+<i>Y. Meng, D. Li, M. Ornik</i>.   <br />
+Accepted to European Control Conference (ECC). @ Reykjavík, Iceland, 2026.  (<a href="https://arxiv.org/abs/2504.03502" target=&ldquo;blank&rdquo;>arXiv</a>)</p>
+</li>
+</ul>
+</div></div>
+</div> <!-- <div id="layout-content"> -->
+<div id="footer-container">
+<div id="footer">
+<div id="footer-text">
+Last edited  on April 14<sup>th</sup> 2026  11:12AM (Time Zone: EDT). </br>
+<!-- Powered by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc + MathJax</a>.-->
+</div> <!-- <div id="footer-text"> -->
+</div> <!-- <div id="footer"> -->
+</div> <!-- <div id="footer-container"> -->
+<div> <!-- nomenulastbit to counteract  <div id="layout">  -->
+</div> <!--- <div id="layout"> --->
+</div> <!--- <div id="main-container"> --->
+<script>
+function openNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "280px";
+        document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+    }
+}
+function closeNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setInterval(
+            function(){ location.reload() },
+            500
+        );
+    }
+}
+</script>
+</body>
+</html>
