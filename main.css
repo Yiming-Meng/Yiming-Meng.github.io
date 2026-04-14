@@ -1072,13 +1072,3 @@ div#member p{
     color: #444;                 /* caption color */
 }
 
-body {
-  transform-origin: top left;
-}
-
-@media (max-width: 768px) {
-  body {
-    transform: scale(0.8);
-    width: 125%;
-  }
-}
