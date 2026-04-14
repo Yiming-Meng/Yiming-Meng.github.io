@@ -1124,3 +1124,18 @@ div#member p{
     padding-right: 2.2rem !important;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .openbtn {
+    color: #cccccc !important;        /* light gray */
+    background: transparent !important;
+    border: none !important;
+    font-size: 26px !important;       /* keep roughly same size */
+    padding: 6px 8px !important;
+    display: inline-block !important;
+  }
+
+  .openbtn:hover {
+    color: #ffffff !important;        /* brighter on hover */
+  }
+}
