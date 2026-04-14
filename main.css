@@ -1067,77 +1067,97 @@ div#member p{
 }
 
 @media screen and (max-width: 768px) {
-  div#header-text-container {
-    visibility: hidden !important;
-    width: 0 !important;
+  html {
+    font-size: clamp(9px, 2.4vw, 16px);
   }
 
-  div#layout-menu-container {
-    width: 0 !important;
+  div#header {
+    height: 2.2rem !important;
+  }
+
+  div#header-container {
+    height: 3.1rem !important;
+  }
+
+  div#header-text-container {
+    font-size: 1.75rem !important;
+    height: 2.5rem !important;
+    padding-left: 0.6rem !important;
+    padding-top: 0.1rem !important;
+    margin: 0.3rem !important;
+    visibility: visible !important;
+    width: auto !important;
   }
 
   div#layout-menu {
-    padding-top: 20px !important;
-    min-width: 0 !important;
-    width: 0 !important;
-    box-shadow: 8px 0 10px 0 rgba(0, 0, 0, 0.3) !important;
-    border: none !important;
-    overflow-x: hidden !important;
+    min-width: 17.5rem !important;
+    width: 17.5rem !important;
+    top: 2.2rem !important;
+    height: calc(100vh - 2.2rem) !important;
+    padding-bottom: 1.5rem !important;
   }
 
   div#layout-content-container {
-    margin-left: 0 !important;
-    width: 100% !important;
+    margin-left: 17.55rem !important;
+    width: calc(100vw - 17.55rem) !important;
   }
 
   div#layout-content {
-    padding-left: 16px !important;
-    padding-right: 16px !important;
-    padding-top: 16px !important;
-    padding-bottom: 20px !important;
+    padding-top: 1.6rem !important;
+    padding-bottom: 2.8rem !important;
+    padding-left: 2.2rem !important;
+    padding-right: 2.2rem !important;
   }
 
-  div#main {
-    padding-left: calc(100vw - 60px) !important;
+  div.menu-category {
+    font-size: 1.125rem !important;
+    padding-left: 1.55rem !important;
+    padding-right: 1.55rem !important;
+    line-height: 2 !important;
   }
 
-  .openbtn {
-    font-size: 26px !important;
-    cursor: pointer !important;
-    background: none !important;
-    color: white !important;
-    padding: 8px 9px !important;
-    border: none !important;
-    width: 45px !important;
+  div.menu-item {
+    font-size: 1rem !important;
+    padding-left: 1.55rem !important;
+    padding-right: 1.55rem !important;
   }
 
-  div#layout-menu-container .closebtn {
-    position: absolute !important;
-    top: 0 !important;
-    right: 25px !important;
-    font-size: 36px !important;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-    padding-top: 1.1px !important;
-    padding-bottom: 5.3px !important;
-    line-height: 1 !important;
-    margin-right: -25px !important;
-    background: #ffdce0 !important;
-    color: #959da5 !important;
+  #profile-photo {
+    width: 9.4rem !important;
+    height: 9.4rem !important;
   }
 
-  img {
-    max-width: 100% !important;
-    height: auto !important;
-    margin-right: 0 !important;
+  #profile-block .profile-section-title {
+    font-size: 1.125rem !important;
+    padding: 0.95rem 1.55rem 0.1rem 1.55rem !important;
   }
 
-  p {
-    text-align: left !important;
+  #profile-block .profile-line {
+    font-size: 1rem !important;
+    padding: 0 1.55rem !important;
+    line-height: 1.4 !important;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  h3 {
+    font-size: 1.25rem !important;
+  }
+
+  p, li, td {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
   }
 
   div#footer {
-    padding-left: 16px !important;
-    padding-right: 16px !important;
+    font-size: 0.75rem !important;
+    padding-left: 2.2rem !important;
+    padding-right: 2.2rem !important;
   }
 }
